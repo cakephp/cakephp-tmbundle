@@ -63,7 +63,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(redirect|set|setAction|validate|validateErrors|render|referer|flash|flashOut|postCondtions|cleanUpFields|beforeFilter|beforeRender|afterFilter)\b</string>
+			<string>\b(redirect|set|setAction|validate|validateErrors|render|referer|flash|postCondtions|beforeFilter|beforeRender|afterFilter)\b</string>
 			<key>name</key>
 			<string>support.function.controller.cake</string>
 		</dict>
@@ -87,7 +87,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(areaTag|charsetTag|checkboxTag|contentTag|cssTag|fileTag|formTag|guiListTag|hiddenTag|imageTag|inputTag|javascriptIncludeTag|javascriptTag|linkEmail|linkOut|linkTo|parseHtmlOptions|passwordTag|radioTags|submitTag|tag|urlFor)\b</string>
+			<string>\b(areaTag|charsetTag|checkboxTag|contentTag|cssTag|fileTag|formTag|guiListTag|hiddenTag|imageTag|inputTag|javascriptIncludeTag|javascriptTag|linkEmail|linkOut|linkTo|parseHtmlOptions|passwordTag|radioTags|submitTag|tag|urlFor|isFieldError|labelTag|divTag|pTag|generate(Input|Checkbox|Area|Select|Submit)Div)\b</string>
 			<key>name</key>
 			<string>invalid.deprecated.helper.html.cake</string>
 		</dict>
@@ -99,7 +99,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(isFieldError|labelTag|divTag|pTag|generate(Input|Checkbox|Area|Select|submit)Div|generate(Date|DateTime|Fields))\b</string>
+			<string>\b(generate(Date|DateTime|Fields))\b</string>
 			<key>name</key>
 			<string>support.function.helper.cake</string>
 		</dict>
