@@ -2,6 +2,87 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>excludedItems</key>
+		<array>
+			<string>C5C4E48D-F3E1-473C-84A0-5389E4BD1438</string>
+		</array>
+		<key>items</key>
+		<array>
+			<string>D7FAB954-4DAB-4213-9023-CE52AD04BE46</string>
+			<string>365F0868-308E-44BC-8781-2B65CBF48B74</string>
+			<string>------------------------------------</string>
+			<string>D0DB044B-B4C8-48D2-9B5A-7DA354BE04C0</string>
+			<string>48C94957-8681-4182-8523-63EC111901B8</string>
+			<string>C7D2E38F-957E-491B-B92D-0E818BF22A5A</string>
+			<string>------------------------------------</string>
+			<string>374DC7ED-8E67-4F1C-B6E4-E764A272583E</string>
+			<string>1356140E-8278-44F0-8680-14C1E17225C0</string>
+			<string>56C3B48F-FD28-47A2-80C6-92B7E9D257A0</string>
+			<string>125E47D2-7CE0-44B5-BD2D-A35E4734E4F9</string>
+			<string>------------------------------------</string>
+			<string>B6D99D4B-D003-41FC-896B-75DD80915775</string>
+			<string>11F91D5A-CD81-4327-AC2F-ECD768167825</string>
+		</array>
+		<key>submenus</key>
+		<dict>
+			<key>125E47D2-7CE0-44B5-BD2D-A35E4734E4F9</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>9D47CB07-6C99-41E0-A098-4521E51A411D</string>
+					<string>887062B4-9C60-4656-8808-8F41381AA7F2</string>
+					<string>D11B464A-42FB-41D3-A40B-A75F7FD70B7D</string>
+					<string>2945B997-2C19-449F-A500-6B8B34A2ADEF</string>
+				</array>
+				<key>name</key>
+				<string>Controller</string>
+			</dict>
+			<key>1356140E-8278-44F0-8680-14C1E17225C0</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>33AEB7D5-8837-4204-B0CD-8B9E3906AB84</string>
+					<string>3A46D51C-1B9D-4A7F-98F3-E38C3243B134</string>
+					<string>CD815D37-3D3E-4086-B5FB-116405F586F1</string>
+					<string>78D7D4AE-A7B6-4B58-B508-EE3DBF175B21</string>
+					<string>F213051B-2625-4270-A05A-1E5E45FA3C5C</string>
+					<string>E92E5F5B-B9B0-49CB-825E-8A7B9B68B1F2</string>
+					<string>EBB8D77D-567A-4B23-B224-7FAFFCCE00FB</string>
+				</array>
+				<key>name</key>
+				<string>Model</string>
+			</dict>
+			<key>374DC7ED-8E67-4F1C-B6E4-E764A272583E</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>F3AC64D9-C024-4ACA-9805-0B3DC79915DE</string>
+					<string>D14A7BF7-FA53-4F5D-B96C-6D2617D1E6AE</string>
+					<string>68F5651C-065F-45AE-8F92-374434920BCF</string>
+					<string>0692BF3F-0092-4DF2-A732-0C6D6B82D4B8</string>
+				</array>
+				<key>name</key>
+				<string>Bake</string>
+			</dict>
+			<key>56C3B48F-FD28-47A2-80C6-92B7E9D257A0</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>429789E2-E940-4402-B160-247CDDCA2AA8</string>
+					<string>804A6B8D-560F-4D96-8F8A-0BBBDE8EB72E</string>
+					<string>A40DC508-E170-4B06-8D4A-5534A41AEB6E</string>
+					<string>5DC60BA0-43CD-4281-B219-994B0518A888</string>
+					<string>ADDD23F4-71AA-412C-8D9D-D15E4CF67839</string>
+					<string>9DC30C4D-88A1-4702-802A-34680029D03B</string>
+					<string>A1D023D8-B493-4146-88EB-B0C0BC90BF33</string>
+				</array>
+				<key>name</key>
+				<string>View</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>name</key>
 	<string>CakePHP</string>
 	<key>ordering</key>
@@ -12,7 +93,7 @@
 		<string>365F0868-308E-44BC-8781-2B65CBF48B74</string>
 		<string>F3AC64D9-C024-4ACA-9805-0B3DC79915DE</string>
 		<string>D14A7BF7-FA53-4F5D-B96C-6D2617D1E6AE</string>
-		<string>F6EF87FA-0A05-4B5F-AECA-EE1455B18FF1</string>
+		<string>429789E2-E940-4402-B160-247CDDCA2AA8</string>
 		<string>A40DC508-E170-4B06-8D4A-5534A41AEB6E</string>
 		<string>5DC60BA0-43CD-4281-B219-994B0518A888</string>
 		<string>804A6B8D-560F-4D96-8F8A-0BBBDE8EB72E</string>
@@ -33,6 +114,7 @@
 		<string>78D7D4AE-A7B6-4B58-B508-EE3DBF175B21</string>
 		<string>EBB8D77D-567A-4B23-B224-7FAFFCCE00FB</string>
 		<string>887062B4-9C60-4656-8808-8F41381AA7F2</string>
+		<string>D11B464A-42FB-41D3-A40B-A75F7FD70B7D</string>
 		<string>ADDD23F4-71AA-412C-8D9D-D15E4CF67839</string>
 		<string>9DC30C4D-88A1-4702-802A-34680029D03B</string>
 		<string>A1D023D8-B493-4146-88EB-B0C0BC90BF33</string>

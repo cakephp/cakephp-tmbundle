@@ -3,16 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php else: ?&gt;
-	${0:# code...}  	 
-&lt;?php endif; ?&gt;</string>
+	<string>&lt;?php echo \$form-&gt;input('${1:Model}.${2:field}', array($0)); ?&gt;
+</string>
 	<key>name</key>
-	<string>else (tif)</string>
+	<string>input (tin)</string>
 	<key>scope</key>
 	<string>source.php.cake</string>
 	<key>tabTrigger</key>
-	<string>telse</string>
+	<string>tin</string>
 	<key>uuid</key>
-	<string>9DC30C4D-88A1-4702-802A-34680029D03B</string>
+	<string>429789E2-E940-4402-B160-247CDDCA2AA8</string>
 </dict>
 </plist>

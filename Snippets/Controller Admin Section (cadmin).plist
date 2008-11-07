@@ -125,7 +125,7 @@ function ${2}edit(\$id=null) 	{
 } // END function ${2}edit
 //@}</string>
 	<key>name</key>
-	<string>Controller Admin Section (cadmin)</string>
+	<string>Admin Controller (cadmin)</string>
 	<key>scope</key>
 	<string>source.php.cake</string>
 	<key>tabTrigger</key>

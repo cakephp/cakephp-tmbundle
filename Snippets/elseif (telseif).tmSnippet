@@ -7,7 +7,7 @@
 	${0:# code...}  	 
 &lt;?php endif; ?&gt;</string>
 	<key>name</key>
-	<string>elseif (telseif)</string>
+	<string>elseif (tif)</string>
 	<key>scope</key>
 	<string>source.php.cake</string>
 	<key>tabTrigger</key>

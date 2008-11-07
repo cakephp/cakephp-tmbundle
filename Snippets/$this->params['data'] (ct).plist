@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>\$this-&gt;data['Model']['$0']</string>
 	<key>name</key>
-	<string>$this-&gt;data (ct)</string>
+	<string>$this-&gt;data (data)</string>
 	<key>scope</key>
 	<string>source.php.cake</string>
 	<key>tabTrigger</key>

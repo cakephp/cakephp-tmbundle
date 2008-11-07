@@ -62,7 +62,7 @@
 \$row = 1;
 ?&gt;</string>
 	<key>name</key>
-	<string>Admin_index.thtml (taindex)</string>
+	<string>Admin Index View (taindex)</string>
 	<key>scope</key>
 	<string>source.php.cake</string>
 	<key>tabTrigger</key>
