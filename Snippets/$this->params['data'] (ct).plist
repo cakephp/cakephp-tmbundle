@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;data['Model']['$0']</string>
+	<string>\$this-&gt;data</string>
 	<key>name</key>
-	<string>$this-&gt;data (data)</string>
+	<string>$this-&gt;data</string>
 	<key>scope</key>
 	<string>source.php.cake</string>
 	<key>tabTrigger</key>

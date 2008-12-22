@@ -5,11 +5,11 @@
 	<key>content</key>
 	<string>Configure::read('$0')</string>
 	<key>name</key>
-	<string>Configure::read (cnf)</string>
+	<string>Configure::read (config)</string>
 	<key>scope</key>
 	<string>source.php.cake</string>
 	<key>tabTrigger</key>
-	<string>cnf</string>
+	<string>config</string>
 	<key>uuid</key>
 	<string>48C94957-8681-4182-8523-63EC111901B8</string>
 </dict>

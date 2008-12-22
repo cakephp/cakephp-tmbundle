@@ -7,11 +7,11 @@
 	${0:# code...}  	 
 &lt;?php endif; ?&gt;</string>
 	<key>name</key>
-	<string>else (tif)</string>
+	<string>else</string>
 	<key>scope</key>
 	<string>source.php.cake</string>
 	<key>tabTrigger</key>
-	<string>telse</string>
+	<string>else</string>
 	<key>uuid</key>
 	<string>9DC30C4D-88A1-4702-802A-34680029D03B</string>
 </dict>

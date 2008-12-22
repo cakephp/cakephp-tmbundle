@@ -5,11 +5,11 @@
 	<key>content</key>
 	<string>Configure::write('$1', $2);</string>
 	<key>name</key>
-	<string>Configure::write (cnf)</string>
+	<string>Configure::write (config)</string>
 	<key>scope</key>
 	<string>source.php.cake</string>
 	<key>tabTrigger</key>
-	<string>cnf</string>
+	<string>config</string>
 	<key>uuid</key>
 	<string>C7D2E38F-957E-491B-B92D-0E818BF22A5A</string>
 </dict>

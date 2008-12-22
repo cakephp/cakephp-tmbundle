@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php debug ($${1:whatToEcho}); ?&gt;</string>
+	<string>debug (\$${1:data});</string>
 	<key>name</key>
-	<string>debug (tdebug)</string>
+	<string>debug</string>
 	<key>scope</key>
-	<string>text.html</string>
+	<string>source.php.cake, text.html</string>
 	<key>tabTrigger</key>
-	<string>tdebug</string>
+	<string>debug</string>
 	<key>uuid</key>
 	<string>B7351596-BC93-4E7A-A996-C6257E4F7B09</string>
 </dict>

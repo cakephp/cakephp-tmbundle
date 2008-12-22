@@ -11,6 +11,8 @@
 	<string>(/\*|\{|\()</string>
 	<key>foldingStopMarker</key>
 	<string>(\*/|\}|\))</string>
+	<key>keyEquivalent</key>
+	<string>^~C</string>
 	<key>name</key>
 	<string>CakePHP</string>
 	<key>patterns</key>

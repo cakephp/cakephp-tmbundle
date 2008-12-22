@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Syntax Summary:
+
+   Variables        $TM_FILENAME, $TM_SELECTED_TEXT
+   Fallback Values  ${TM_SELECTED_TEXT:$TM_CURRENT_WORD}
+   Substitutions    ${TM_FILENAME/.*/\U$0/}
+   
+   Tab Stops        $1, $2, $3, … $0 (optional)
+   Placeholders     ${1:default value}
+   Mirrors          &lt;${2:tag}&gt;…&lt;/$2&gt;
+   Transformations  &lt;${3:tag}&gt;…&lt;/${3/(\w*).*/\U$1/}&gt;
+
+   Shell Code       `date`, `pwd`
+
+   Escape Codes     \$ \` \\
+</string>
+	<key>name</key>
+	<string>$form-&gt;error()</string>
+	<key>uuid</key>
+	<string>A0756A06-4434-4A52-82AC-3B7F97F09E7D</string>
+</dict>
+</plist>
