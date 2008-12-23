@@ -7,9 +7,9 @@
 	<key>name</key>
 	<string>View::element()</string>
 	<key>scope</key>
-	<string>text.html</string>
+	<string>source.php.cake,text.html</string>
 	<key>tabTrigger</key>
-	<string>tre</string>
+	<string>render</string>
 	<key>uuid</key>
 	<string>05126EF1-D822-46C5-B1D5-F0FD47DBE5A9</string>
 </dict>

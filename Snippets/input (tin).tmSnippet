@@ -6,7 +6,7 @@
 	<string>&lt;?php echo \$form-&gt;input('${1:Model}.${2:field}', array($0)); ?&gt;
 </string>
 	<key>name</key>
-	<string>input</string>
+	<string>$form-&gt;input</string>
 	<key>scope</key>
 	<string>source.php.cake</string>
 	<key>tabTrigger</key>

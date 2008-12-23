@@ -9,7 +9,7 @@
 	<key>scope</key>
 	<string>source.php.cake,text.html</string>
 	<key>tabTrigger</key>
-	<string>requestAction</string>
+	<string>ra</string>
 	<key>uuid</key>
 	<string>FA824CBC-0414-46E1-9DD0-F202E5537BCE</string>
 </dict>

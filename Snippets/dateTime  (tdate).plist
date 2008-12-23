@@ -3,12 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;p&gt;${6:&lt;label for="$5"&gt;${7:text for label}&lt;/label&gt;}
-&lt;?php echo \$form-&gt;error('$1.$2', '${9:validation error message.}') ?&gt;
-&lt;?php echo \$form-&gt;dateTime('${1:Model}.${2:field}', ${3:'DMY'}, ${4:12}, null, array('id'=&gt;'${5:$1_$2}')) ?&gt;${8:
-}&lt;/p&gt;$0</string>
+	<string>&lt;?php echo \$form-&gt;dateTime('${1:Model}.${2:field}', ${3:'DMY'}, ${4:12}, null, array('id'=&gt;'${5:$1_$2}')) ?&gt;${8:
+}$0</string>
 	<key>name</key>
-	<string>dateTime</string>
+	<string>$form-&gt;dateTime</string>
 	<key>scope</key>
 	<string>source.php.cake</string>
 	<key>tabTrigger</key>

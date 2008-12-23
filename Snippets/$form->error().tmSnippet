@@ -3,21 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Syntax Summary:
-
-   Variables        $TM_FILENAME, $TM_SELECTED_TEXT
-   Fallback Values  ${TM_SELECTED_TEXT:$TM_CURRENT_WORD}
-   Substitutions    ${TM_FILENAME/.*/\U$0/}
-   
-   Tab Stops        $1, $2, $3, … $0 (optional)
-   Placeholders     ${1:default value}
-   Mirrors          &lt;${2:tag}&gt;…&lt;/$2&gt;
-   Transformations  &lt;${3:tag}&gt;…&lt;/${3/(\w*).*/\U$1/}&gt;
-
-   Shell Code       `date`, `pwd`
-
-   Escape Codes     \$ \` \\
-</string>
+	<string>&lt;?php echo \$form-&gt;error('${1:Model}.${2:field}'$0); ?&gt;</string>
 	<key>name</key>
 	<string>$form-&gt;error()</string>
 	<key>uuid</key>

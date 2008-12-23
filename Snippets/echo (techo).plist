@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>echo</string>
 	<key>scope</key>
-	<string>text.html</string>
+	<string>source.php.cake,text.html</string>
 	<key>tabTrigger</key>
 	<string>echo</string>
 	<key>uuid</key>
