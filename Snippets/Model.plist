@@ -5,11 +5,14 @@
 	<key>content</key>
 	<string>&lt;?php
 /**
- * ${2:undocumented class}
+ * $ Model
+ * 
+ * [Short Description]
  *
  * @package ${2:default}
  * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
- * @date \$LastChangedDate\$
+ * @version \$Id\$
+ * @copyright ${PHPDOC_AUTHOR:$TM_ORGANIZATION_NAME}
  **/
 class ${1:Singular} extends AppModel {
 	var \$name = '$1';
@@ -17,9 +20,9 @@ class ${1:Singular} extends AppModel {
 }
 ?&gt;</string>
 	<key>name</key>
-	<string>Model</string>
+	<string>New Model</string>
 	<key>scope</key>
-	<string>source.php, text.html.basic</string>
+	<string>source.php.cake</string>
 	<key>tabTrigger</key>
 	<string>model</string>
 	<key>uuid</key>
