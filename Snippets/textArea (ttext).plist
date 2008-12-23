@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$form-&gt;textarea('${1:Model}.${2:field}', array('rows'=&gt;'${3:rows}','cols'=&gt;'${4:cols}')) ?&gt;
-$0</string>
+	<string>&lt;?php echo \$form-&gt;textarea('${1:Model}.${2:field}', ${3:array($4)}) ?&gt;$0
+</string>
 	<key>name</key>
 	<string>$form-&gt;textarea()</string>
 	<key>scope</key>
-	<string>source.php.cake,text.html</string>
+	<string>source.php.cake</string>
 	<key>tabTrigger</key>
-	<string>textarea</string>
+	<string>text</string>
 	<key>uuid</key>
 	<string>FE6BA4D6-3F95-452B-986C-90412875F0BB</string>
 </dict>

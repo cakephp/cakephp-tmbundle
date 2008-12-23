@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$form-&gt;checkbox('${1:Model}.${2:field}'${3:, array($4)}); ?&gt;$0</string>
+	<string>&lt;?php echo \$form-&gt;hidden('${1:Model}.${2:field}'${3:, array($4)}); ?&gt;$0</string>
 	<key>name</key>
-	<string>$form-&gt;checkbox()</string>
+	<string>$form-&gt;hidden()</string>
 	<key>scope</key>
 	<string>source.php.cake</string>
 	<key>tabTrigger</key>
-	<string>check</string>
+	<string>hidden</string>
 	<key>uuid</key>
-	<string>804A6B8D-560F-4D96-8F8A-0BBBDE8EB72E</string>
+	<string>B8A107DC-536B-4F25-8A84-F4ACBE40295B</string>
 </dict>
 </plist>

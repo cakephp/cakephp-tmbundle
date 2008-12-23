@@ -3,14 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$form-&gt;create('${1:controller}'); ?&gt;
-	${0:form stuff here}
-&lt;/form&gt;
-</string>
+	<string>&lt;?php echo \$form-&gt;create('${1:Model}'${2:, array($3)}); ?&gt;
+	$0
+&lt;?php echo \$form-&gt;end($4); ?&gt;</string>
 	<key>name</key>
-	<string>$form-&gt;create()</string>
+	<string>$form-&gt;create()...end()</string>
 	<key>scope</key>
-	<string>source.php.cake, text.html</string>
+	<string>source.php.cake</string>
 	<key>tabTrigger</key>
 	<string>form</string>
 	<key>uuid</key>

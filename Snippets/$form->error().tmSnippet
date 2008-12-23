@@ -3,9 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$form-&gt;error('${1:Model}.${2:field}'$0); ?&gt;</string>
+	<string>&lt;?php echo \$form-&gt;error('${1:Model}.${2:field}'${3:, ${4:null}, ${5:array($6)}}); ?&gt;$0</string>
 	<key>name</key>
 	<string>$form-&gt;error()</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>error</string>
 	<key>uuid</key>
 	<string>A0756A06-4434-4A52-82AC-3B7F97F09E7D</string>
 </dict>

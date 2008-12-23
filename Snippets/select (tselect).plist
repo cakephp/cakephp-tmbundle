@@ -3,15 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${4:&lt;?php echo \$html-&gt;tagErrorMsg('$1/$2', '${5:validation error message.}') ?&gt;
-&lt;?php echo \$html-&gt;selectTag('${1:Model}/${2:field}', \$${3:arrayOfOptions},array('id'=&gt;'$1_$2'))?&gt;}
-$0</string>
+	<string>&lt;?php echo \$form-&gt;select('${1:Model}.${2:field}'${3:, ${4:array()}, ${5:null}, ${6:array()}, ${7:''}}); ?&gt;$0</string>
 	<key>name</key>
 	<string>$form-&gt;select()</string>
 	<key>scope</key>
-	<string>source.php.cake,text.html</string>
+	<string>source.php.cake</string>
 	<key>tabTrigger</key>
-	<string>tselect</string>
+	<string>select</string>
 	<key>uuid</key>
 	<string>D7960616-C61B-4770-BE9C-7B4CD6A7E31D</string>
 </dict>

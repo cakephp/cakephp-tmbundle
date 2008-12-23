@@ -3,12 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$form-&gt;submit('${1:Submit}'${2:, array($3)}) ?&gt;
-$0</string>
+	<string>&lt;?php echo \$form-&gt;submit(${1:'${2:Submit}'${3:, array($4)}}) ?&gt;$0</string>
 	<key>name</key>
 	<string>$form-&gt;submit()</string>
 	<key>scope</key>
-	<string>source.php.cake,text.html</string>
+	<string>source.php.cake</string>
 	<key>tabTrigger</key>
 	<string>submit</string>
 	<key>uuid</key>
