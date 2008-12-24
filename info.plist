@@ -38,6 +38,13 @@
 		</array>
 		<key>submenus</key>
 		<dict>
+			<key>0E885288-55A0-4F5A-B900-B10CE93E0520</key>
+			<dict>
+				<key>items</key>
+				<array/>
+				<key>name</key>
+				<string>Tree</string>
+			</dict>
 			<key>125E47D2-7CE0-44B5-BD2D-A35E4734E4F9</key>
 			<dict>
 				<key>items</key>
@@ -48,6 +55,13 @@
 				</array>
 				<key>name</key>
 				<string>Controllers</string>
+			</dict>
+			<key>131E4E33-2A04-4F14-A794-968E060B7507</key>
+			<dict>
+				<key>items</key>
+				<array/>
+				<key>name</key>
+				<string>Auth</string>
 			</dict>
 			<key>1356140E-8278-44F0-8680-14C1E17225C0</key>
 			<dict>
@@ -61,10 +75,19 @@
 				<key>name</key>
 				<string>Models</string>
 			</dict>
-			<key>210207E6-7ED9-4E38-B65A-65AB78DCC934</key>
+			<key>1544C507-42DD-4530-B75B-48FAEC45B2CD</key>
 			<dict>
 				<key>items</key>
 				<array/>
+				<key>name</key>
+				<string>Session</string>
+			</dict>
+			<key>210207E6-7ED9-4E38-B65A-65AB78DCC934</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>0E885288-55A0-4F5A-B900-B10CE93E0520</string>
+				</array>
 				<key>name</key>
 				<string>Behaviors</string>
 			</dict>
@@ -93,7 +116,10 @@
 			<key>428DC66A-02DE-4AEA-B301-0C6DBBE3F4CA</key>
 			<dict>
 				<key>items</key>
-				<array/>
+				<array>
+					<string>131E4E33-2A04-4F14-A794-968E060B7507</string>
+					<string>1544C507-42DD-4530-B75B-48FAEC45B2CD</string>
+				</array>
 				<key>name</key>
 				<string>Components</string>
 			</dict>
@@ -104,10 +130,18 @@
 					<string>F5D68C1B-2495-4C2E-9366-4C57EBC13E6F</string>
 					<string>ABF29B66-C053-4321-8350-199B57ABD092</string>
 					<string>C174151B-AE86-4D3D-8622-CA83582DA519</string>
+					<string>8D87D737-53A1-4644-A92D-F8CBB744E70D</string>
 					<string>A2B6A523-370B-43CB-8A2D-5F67DF5CC38F</string>
 				</array>
 				<key>name</key>
 				<string>Helpers</string>
+			</dict>
+			<key>8D87D737-53A1-4644-A92D-F8CBB744E70D</key>
+			<dict>
+				<key>items</key>
+				<array/>
+				<key>name</key>
+				<string>Session</string>
 			</dict>
 			<key>A2B6A523-370B-43CB-8A2D-5F67DF5CC38F</key>
 			<dict>
