@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>View::element()</string>
 	<key>scope</key>
-	<string>source.php.cake,text.html</string>
+	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
 	<string>render</string>
 	<key>uuid</key>

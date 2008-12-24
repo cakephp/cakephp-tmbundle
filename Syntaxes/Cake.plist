@@ -193,10 +193,6 @@
 			<key>include</key>
 			<string>source.php</string>
 		</dict>
-		<dict>
-			<key>include</key>
-			<string>text.html.basic</string>
-		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.php.cake</string>

@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php \$this-&gt;requestAction(array('controller' =&gt; '${1:controller}', 'action' =&gt; '${2:action}'$0)) ?&gt;</string>
+	<string>\$this-&gt;requestAction(array('controller' =&gt; '${1:controller}', 'action' =&gt; '${2:action}'$0));</string>
 	<key>name</key>
 	<string>requestAction</string>
 	<key>scope</key>
-	<string>source.php.cake,text.html</string>
+	<string>source.php.cake, text.html.php.cake</string>
 	<key>tabTrigger</key>
 	<string>ra</string>
 	<key>uuid</key>

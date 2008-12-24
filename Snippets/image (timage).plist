@@ -8,7 +8,7 @@ $0</string>
 	<key>name</key>
 	<string>$html-&gt;image()</string>
 	<key>scope</key>
-	<string>source.php.cake</string>
+	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
 	<string>image</string>
 	<key>uuid</key>

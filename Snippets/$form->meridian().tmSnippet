@@ -8,7 +8,7 @@ $0</string>
 	<key>name</key>
 	<string>$form-&gt;meridian()</string>
 	<key>scope</key>
-	<string>source.php.cake</string>
+	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
 	<string>merid</string>
 	<key>uuid</key>

@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>foreach</string>
 	<key>scope</key>
-	<string>source.php.cake, text.html</string>
+	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
 	<string>foreach</string>
 	<key>uuid</key>

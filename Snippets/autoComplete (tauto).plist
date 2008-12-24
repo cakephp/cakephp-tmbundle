@@ -14,7 +14,7 @@ $0</string>
 	<key>name</key>
 	<string>$ajax-&gt;autoComplete()</string>
 	<key>scope</key>
-	<string>source.php.cake, text.html</string>
+	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
 	<string>autocomplete</string>
 	<key>uuid</key>

@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>$time-&gt;niceShort()</string>
 	<key>scope</key>
-	<string>text.html</string>
+	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
 	<string>time</string>
 	<key>uuid</key>

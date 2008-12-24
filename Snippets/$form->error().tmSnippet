@@ -8,7 +8,7 @@ $0</string>
 	<key>name</key>
 	<string>$form-&gt;error()</string>
 	<key>scope</key>
-	<string>source.php.cake</string>
+	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
 	<string>error</string>
 	<key>uuid</key>
