@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>&lt;?php elseif (\$${1:condition}): ?&gt;
-	${0:# code...}  	 
+	$0 
 &lt;?php endif; ?&gt;</string>
 	<key>name</key>
 	<string>elseif</string>

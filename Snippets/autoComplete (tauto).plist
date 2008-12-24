@@ -16,7 +16,7 @@ $0</string>
 	<key>scope</key>
 	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
-	<string>autocomplete</string>
+	<string>autoc</string>
 	<key>uuid</key>
 	<string>A816AFAD-23C0-4357-A716-F0262464B59F</string>
 </dict>
