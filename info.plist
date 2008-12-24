@@ -38,6 +38,17 @@
 		</array>
 		<key>submenus</key>
 		<dict>
+			<key>0CFA43C0-D19A-4BBD-9222-E4B43B1BD77C</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>4D325575-6A5C-4784-A789-E9973ACEDCFC</string>
+					<string>553ED35C-C241-440C-89DD-0069C10BF383</string>
+					<string>8636DFF7-65DA-4602-9270-002070E1D78C</string>
+				</array>
+				<key>name</key>
+				<string>Paginator</string>
+			</dict>
 			<key>0E885288-55A0-4F5A-B900-B10CE93E0520</key>
 			<dict>
 				<key>items</key>
@@ -82,6 +93,17 @@
 				<key>name</key>
 				<string>Session</string>
 			</dict>
+			<key>15C7DDD4-9BE9-4120-92E6-0BCFCC13C516</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>DBEAC279-0DE4-4566-AF74-4E1AA05F202D</string>
+					<string>14F8DF3E-9C07-4080-8494-73CC4E84E121</string>
+					<string>46C5A3E4-1483-435B-A84E-F3DD008E80D9</string>
+				</array>
+				<key>name</key>
+				<string>JavaScript</string>
+			</dict>
 			<key>210207E6-7ED9-4E38-B65A-65AB78DCC934</key>
 			<dict>
 				<key>items</key>
@@ -107,8 +129,6 @@
 				<array>
 					<string>F3AC64D9-C024-4ACA-9805-0B3DC79915DE</string>
 					<string>D14A7BF7-FA53-4F5D-B96C-6D2617D1E6AE</string>
-					<string>68F5651C-065F-45AE-8F92-374434920BCF</string>
-					<string>0692BF3F-0092-4DF2-A732-0C6D6B82D4B8</string>
 				</array>
 				<key>name</key>
 				<string>Bake</string>
@@ -127,11 +147,11 @@
 			<dict>
 				<key>items</key>
 				<array>
-					<string>F5D68C1B-2495-4C2E-9366-4C57EBC13E6F</string>
+					<string>15C7DDD4-9BE9-4120-92E6-0BCFCC13C516</string>
+					<string>0CFA43C0-D19A-4BBD-9222-E4B43B1BD77C</string>
 					<string>ABF29B66-C053-4321-8350-199B57ABD092</string>
 					<string>C174151B-AE86-4D3D-8622-CA83582DA519</string>
 					<string>8D87D737-53A1-4644-A92D-F8CBB744E70D</string>
-					<string>A2B6A523-370B-43CB-8A2D-5F67DF5CC38F</string>
 				</array>
 				<key>name</key>
 				<string>Helpers</string>
@@ -142,15 +162,6 @@
 				<array/>
 				<key>name</key>
 				<string>Session</string>
-			</dict>
-			<key>A2B6A523-370B-43CB-8A2D-5F67DF5CC38F</key>
-			<dict>
-				<key>items</key>
-				<array>
-					<string>A816AFAD-23C0-4357-A716-F0262464B59F</string>
-				</array>
-				<key>name</key>
-				<string>Ajax</string>
 			</dict>
 			<key>ABF29B66-C053-4321-8350-199B57ABD092</key>
 			<dict>
@@ -219,15 +230,6 @@
 				<array/>
 				<key>name</key>
 				<string>Go To</string>
-			</dict>
-			<key>F5D68C1B-2495-4C2E-9366-4C57EBC13E6F</key>
-			<dict>
-				<key>items</key>
-				<array>
-					<string>A1C0B68C-31E6-4ABE-A93B-6DA90E3B62D0</string>
-				</array>
-				<key>name</key>
-				<string>Time</string>
 			</dict>
 		</dict>
 	</dict>

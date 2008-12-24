@@ -5,11 +5,11 @@
 	<key>content</key>
 	<string>&lt;?php echo \$this-&gt;element('${1:element}'$0); ?&gt;</string>
 	<key>name</key>
-	<string>View::element()</string>
+	<string>$this-&gt;element()</string>
 	<key>scope</key>
 	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
-	<string>render</string>
+	<string>ren</string>
 	<key>uuid</key>
 	<string>05126EF1-D822-46C5-B1D5-F0FD47DBE5A9</string>
 </dict>
