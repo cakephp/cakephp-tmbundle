@@ -1,6 +1,8 @@
 Installation:
 
+Fire up Terminal, and enter the following two commands:
+
 cd ~/Library/Application\ Support/TextMate/Bundles
-git clone git://github.com/cakephp/tm_bundle.git
+git clone git://github.com/cakephp/tm_bundle.git CakePHP.tmbundle
 
 In TextMate: Bundles > Bundle Editor > Reload Bundles
