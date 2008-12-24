@@ -159,7 +159,11 @@
 			<key>8D87D737-53A1-4644-A92D-F8CBB744E70D</key>
 			<dict>
 				<key>items</key>
-				<array/>
+				<array>
+					<string>CE0D35B3-3521-4755-BCEF-BE7FE9E0505A</string>
+					<string>A953766F-EF99-4182-9BA5-07F2EE010D7B</string>
+					<string>AF57E311-A4A7-44EB-BAEB-3CBA9FCAE8E7</string>
+				</array>
 				<key>name</key>
 				<string>Session</string>
 			</dict>
@@ -281,6 +285,9 @@
 		<string>4D325575-6A5C-4784-A789-E9973ACEDCFC</string>
 		<string>553ED35C-C241-440C-89DD-0069C10BF383</string>
 		<string>8636DFF7-65DA-4602-9270-002070E1D78C</string>
+		<string>CE0D35B3-3521-4755-BCEF-BE7FE9E0505A</string>
+		<string>A953766F-EF99-4182-9BA5-07F2EE010D7B</string>
+		<string>AF57E311-A4A7-44EB-BAEB-3CBA9FCAE8E7</string>
 		<string>B6D99D4B-D003-41FC-896B-75DD80915775</string>
 		<string>11F91D5A-CD81-4327-AC2F-ECD768167825</string>
 		<string>48C94957-8681-4182-8523-63EC111901B8</string>
