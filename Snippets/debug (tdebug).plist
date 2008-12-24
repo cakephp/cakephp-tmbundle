@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>debug (\$${1:data});</string>
+	<string>debug (${1:\$data});</string>
 	<key>name</key>
 	<string>debug</string>
 	<key>scope</key>

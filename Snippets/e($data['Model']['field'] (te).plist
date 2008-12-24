@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;${4:p}&gt;${3}&lt;?php e(\$data['${1:Model}']['${2:field}']); ?&gt;&lt;/$4&gt;</string>
+	<string>&lt;?php echo \$data['${1:Model}']['${2:field}']; ?&gt;</string>
 	<key>name</key>
-	<string>e($data['Model']['field'])</string>
+	<string>echo $data['Model']['field']</string>
 	<key>scope</key>
 	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
