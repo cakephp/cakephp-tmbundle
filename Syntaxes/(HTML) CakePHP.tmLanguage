@@ -18,8 +18,10 @@
 		|^\s*--&gt;
 		|(^|\s)\}
 		)</string>
+	<key>keyEquivalent</key>
+	<string>^~C</string>
 	<key>name</key>
-	<string>(HTML) CakePHP</string>
+	<string>CakePHP (HTML)</string>
 	<key>patterns</key>
 	<array>
 		<dict>
