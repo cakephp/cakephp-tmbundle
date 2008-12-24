@@ -3,11 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$html-&gt;image('${1:image.ext}', array('alt'=&gt;'${2:altText}'$0)); ?&gt;</string>
+	<string>&lt;?php echo \$html-&gt;image('${1:image.ext}', array('alt'=&gt;'${2:altText}'$3)); ?&gt;
+$0</string>
 	<key>name</key>
 	<string>$html-&gt;image()</string>
 	<key>scope</key>
-	<string>source.php.cake, text.html</string>
+	<string>source.php.cake</string>
 	<key>tabTrigger</key>
 	<string>image</string>
 	<key>uuid</key>

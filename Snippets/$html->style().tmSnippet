@@ -3,14 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$html-&gt;css(${2:'${1:link}'}); ?&gt;</string>
+	<string>&lt;?php echo \$html-&gt;style(${1:array($2)}$3); ?&gt;
+$0</string>
 	<key>name</key>
-	<string>css</string>
+	<string>$html-&gt;style()</string>
 	<key>scope</key>
-	<string>source.php.cake, text.html</string>
+	<string>source.php.cake</string>
 	<key>tabTrigger</key>
-	<string>css</string>
+	<string>style</string>
 	<key>uuid</key>
-	<string>02430C52-3C71-4A9E-B354-C63F9A56AD79</string>
+	<string>D584E994-3804-4166-AEF8-9E35395EBDE2</string>
 </dict>
 </plist>

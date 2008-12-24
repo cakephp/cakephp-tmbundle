@@ -3,11 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$html-&gt;link('${1:text}', ${2:array('controller' =&gt; '${3:controller}', 'action' =&gt; '${4:action}')}$0); ?&gt;</string>
+	<string>&lt;?php echo \$html-&gt;link('${1:text}', ${2:array('controller' =&gt; '${3:controller}', 'action' =&gt; '${4:action}'$5)}); ?&gt;
+$0</string>
 	<key>name</key>
-	<string>$html-&gt;link</string>
+	<string>$html-&gt;link()</string>
 	<key>scope</key>
-	<string>source.php.cake, text.html</string>
+	<string>source.php.cake</string>
 	<key>tabTrigger</key>
 	<string>link</string>
 	<key>uuid</key>

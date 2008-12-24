@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php echo \$html-&gt;link(
+	\$html-&gt;image('${1:image.ext}', array('alt'=&gt;'${2:altText}'$3)),
+	${4:array('controller' =&gt; '${5:controller}', 'action' =&gt; '${6:action}'$7)},
+	${8:null}, ${9:null}, ${10:false}
+); ?&gt;
+$0</string>
+	<key>name</key>
+	<string>$html-&gt;link($html-&gt;img(..))</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>imgl</string>
+	<key>uuid</key>
+	<string>F7248388-2B17-4F65-B087-D71052847999</string>
+</dict>
+</plist>

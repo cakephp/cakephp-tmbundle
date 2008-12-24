@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$form-&gt;password('${1:Model}.${2:field}'$3); ?&gt;
+	<string>&lt;?php echo \$html-&gt;div($1); ?&gt;
 $0</string>
 	<key>name</key>
-	<string>$form-&gt;password()</string>
+	<string>$html-&gt;div()</string>
 	<key>scope</key>
 	<string>source.php.cake</string>
 	<key>tabTrigger</key>
-	<string>pass</string>
+	<string>div</string>
 	<key>uuid</key>
-	<string>A7FA1064-FADC-491A-B701-8E296DAD892E</string>
+	<string>54E90DA9-654B-4C3B-B262-8807058CE38F</string>
 </dict>
 </plist>
