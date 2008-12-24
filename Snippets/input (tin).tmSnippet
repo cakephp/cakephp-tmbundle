@@ -11,7 +11,7 @@ $0
 	<key>scope</key>
 	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
-	<string>input</string>
+	<string>in</string>
 	<key>uuid</key>
 	<string>429789E2-E940-4402-B160-247CDDCA2AA8</string>
 </dict>

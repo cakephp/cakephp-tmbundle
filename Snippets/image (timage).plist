@@ -10,7 +10,7 @@ $0</string>
 	<key>scope</key>
 	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
-	<string>image</string>
+	<string>img</string>
 	<key>uuid</key>
 	<string>0552C838-D090-4B36-8686-24D958F4435F</string>
 </dict>
