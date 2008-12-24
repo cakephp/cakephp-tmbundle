@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Configure::read('$0')</string>
 	<key>name</key>
-	<string>Configure::read (config)</string>
+	<string>Configure::read</string>
 	<key>scope</key>
 	<string>source.php.cake</string>
 	<key>tabTrigger</key>

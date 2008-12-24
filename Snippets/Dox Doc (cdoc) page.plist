@@ -19,7 +19,7 @@
  **/
 $0</string>
 	<key>name</key>
-	<string>Dox Doc (cdoc) page</string>
+	<string>Dox Doc page</string>
 	<key>scope</key>
 	<string>source.php.cake</string>
 	<key>tabTrigger</key>
