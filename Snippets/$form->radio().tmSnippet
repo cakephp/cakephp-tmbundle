@@ -3,7 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$form-&gt;radio('${1:Model}.${2:field}', ${3: ${4:array()}, ${5:array()}}) ?&gt;$0</string>
+	<string>&lt;?php echo \$form-&gt;radio('${1:Model}.${2:field}'$3); ?&gt;
+$0</string>
 	<key>name</key>
 	<string>$form-&gt;radio()</string>
 	<key>scope</key>

@@ -3,13 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$form-&gt;end($1); ?&gt;$0</string>
+	<string>&lt;?php echo \$form-&gt;end($1); ?&gt;
+$0</string>
 	<key>name</key>
 	<string>$form-&gt;end()</string>
 	<key>scope</key>
 	<string>source.php.cake</string>
 	<key>tabTrigger</key>
-	<string>end</string>
+	<string>form</string>
 	<key>uuid</key>
 	<string>5CBB6007-D1B1-4E48-8373-C2079CE761A8</string>
 </dict>

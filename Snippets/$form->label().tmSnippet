@@ -3,7 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$form-&gt;label('${1:Model}.${2:field}'${3:, ${4:null}, ${5:array($6)}}); ?&gt;$0</string>
+	<string>&lt;?php echo \$form-&gt;label('${1:Model}.${2:field}'$3); ?&gt;
+$0</string>
 	<key>name</key>
 	<string>$form-&gt;label()</string>
 	<key>scope</key>

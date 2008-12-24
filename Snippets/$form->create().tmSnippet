@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$form-&gt;month('${1:Model}.${2:field}'$3); ?&gt;
+	<string>&lt;?php echo \$form-&gt;create('${1:Model}'$2); ?&gt;
 $0</string>
 	<key>name</key>
-	<string>$form-&gt;month()</string>
+	<string>$form-&gt;create()</string>
 	<key>scope</key>
 	<string>source.php.cake</string>
 	<key>tabTrigger</key>
-	<string>month</string>
+	<string>form</string>
 	<key>uuid</key>
-	<string>006870B3-30F0-4D5C-9F05-E36EFC868883</string>
+	<string>6C60A273-C6BB-4EC9-A365-FE8140D31CEA</string>
 </dict>
 </plist>
