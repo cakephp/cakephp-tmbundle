@@ -3,17 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>/*! \brief  ${2:undocumented class}
-	
-	&amp;copy; Copyright `date +%Y` `echo $TM_ORGANIZATION_NAME` - `echo $TM_AUTHOR`. All Rights Reserved.
-
-	\\author `echo $TM_AUTHOR` `echo $TM_ORGANIZATION_NAME`
-	\\author \$LastChangedBy\$
- 	\\date `TZ=GMT date +%Y-%m-%d # T%H:%M:%SZ`
-	\\date \$LastChangedDate\$
-	\\version \$Rev\$
-	\sa
-*/</string>
+	<string>/**
+ * ${1:undocumented class}
+ *
+ * @package ${2:default}
+ * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}$3
+ * @date \$LastChangedDate\$
+ * @version \$Rev\$
+ **/
+$0</string>
 	<key>name</key>
 	<string>Dox Doc (cdoc) class</string>
 	<key>scope</key>

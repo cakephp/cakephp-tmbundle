@@ -3,18 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php
-/*! \page  ${1:$TM_FILEPATH} ${2:description}
-	
-	&amp;copy; Copyright `date +%Y` `echo $TM_ORGANIZATION_NAME` - `echo $TM_AUTHOR`. All Rights Reserved.
-
-	\\author `echo $TM_AUTHOR` `echo $TM_ORGANIZATION_NAME`
-	\\author \$LastChangedBy\$
- 	\\date `TZ=GMT date +%Y-%m-%d # T%H:%M:%SZ`
-	\\date \$LastChangedDate\$
-	\\version \$Rev\$
-	\sa
-*/ ?&gt;
+	<string>/**
+ * ${1:Undocumented file}
+ * 
+ * ${2:Short description}
+ * 
+ * ${3:Long description}
+ *
+ * @package ${4:default}
+ * @author ${5:$TM_FULLNAME}
+ * @copyright `date +%Y` `echo $TM_ORGANIZATION_NAME`
+ * @license $6
+ * @date \$LastChangedDate\$
+ * @version \$Rev\$
+ **/
 $0</string>
 	<key>name</key>
 	<string>Dox Doc (cdoc) page</string>
