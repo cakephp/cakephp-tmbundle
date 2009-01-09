@@ -64,9 +64,13 @@
 				<key>items</key>
 				<array>
 					<string>EE053494-C470-4D0B-8FBA-548BDD59705A</string>
+					<string>9BA2A212-CD0C-4B76-90EA-08EC0D216A8B</string>
+					<string>5F0F193F-A568-468D-B076-6DC58E51AD0D</string>
+					<string>58DADFAD-1E71-4D39-B139-9B0A65E2F681</string>
 					<string>9D47CB07-6C99-41E0-A098-4521E51A411D</string>
 					<string>D11B464A-42FB-41D3-A40B-A75F7FD70B7D</string>
 					<string>2945B997-2C19-449F-A500-6B8B34A2ADEF</string>
+					<string>51133511-DD51-4DAD-9F25-E746F46A5544</string>
 				</array>
 				<key>name</key>
 				<string>Controllers</string>
@@ -301,6 +305,10 @@
 		<string>9D47CB07-6C99-41E0-A098-4521E51A411D</string>
 		<string>D0DB044B-B4C8-48D2-9B5A-7DA354BE04C0</string>
 		<string>2945B997-2C19-449F-A500-6B8B34A2ADEF</string>
+		<string>9BA2A212-CD0C-4B76-90EA-08EC0D216A8B</string>
+		<string>58DADFAD-1E71-4D39-B139-9B0A65E2F681</string>
+		<string>5F0F193F-A568-468D-B076-6DC58E51AD0D</string>
+		<string>51133511-DD51-4DAD-9F25-E746F46A5544</string>
 		<string>3A46D51C-1B9D-4A7F-98F3-E38C3243B134</string>
 		<string>E92E5F5B-B9B0-49CB-825E-8A7B9B68B1F2</string>
 		<string>F213051B-2625-4270-A05A-1E5E45FA3C5C</string>
