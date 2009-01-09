@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;Session-&gt;del('${1:Controller}.${2:key}');
+$0</string>
+	<key>name</key>
+	<string>$this-&gt;Session-&gt;del()</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>sdel</string>
+	<key>uuid</key>
+	<string>412CA9C5-918E-491A-A210-9E0E47CD67CA</string>
+</dict>
+</plist>
