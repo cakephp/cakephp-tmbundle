@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>App::import('${1:LibraryName}', ${2:'${3:ClassName}'});
+$0</string>
+	<key>name</key>
+	<string>App::import()</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>app</string>
+	<key>uuid</key>
+	<string>5100B3CC-EC3D-4F4B-A30E-C8B33B9635EF</string>
+</dict>
+</plist>
