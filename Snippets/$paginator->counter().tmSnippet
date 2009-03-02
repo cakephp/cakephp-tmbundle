@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php echo \$paginator-&gt;counter($1); ?&gt;
+$0</string>
+	<key>name</key>
+	<string>$paginator-&gt;counter()</string>
+	<key>scope</key>
+	<string>text.html.php.cake</string>
+	<key>tabTrigger</key>
+	<string>pcount</string>
+	<key>uuid</key>
+	<string>8636DFF7-65DA-4602-9270-002070E1D78C</string>
+</dict>
+</plist>

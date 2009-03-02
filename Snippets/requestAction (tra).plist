@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;requestAction(array('controller' =&gt; '${1:controller}', 'action' =&gt; '${2:action}'$0));</string>
+	<key>name</key>
+	<string>requestAction</string>
+	<key>scope</key>
+	<string>source.php.cake, text.html.php.cake</string>
+	<key>tabTrigger</key>
+	<string>ra</string>
+	<key>uuid</key>
+	<string>FA824CBC-0414-46E1-9DD0-F202E5537BCE</string>
+</dict>
+</plist>

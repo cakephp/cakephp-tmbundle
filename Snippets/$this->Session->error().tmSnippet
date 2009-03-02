@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;Session-&gt;error();
+$0</string>
+	<key>name</key>
+	<string>$this-&gt;Session-&gt;error()</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>serr</string>
+	<key>uuid</key>
+	<string>2D84E825-8774-4B29-882C-A2E8DCB1C127</string>
+</dict>
+</plist>

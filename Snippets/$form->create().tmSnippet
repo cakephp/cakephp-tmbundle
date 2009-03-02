@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php echo \$form-&gt;create('${1:Model}'$2); ?&gt;
+$0</string>
+	<key>name</key>
+	<string>$form-&gt;create()</string>
+	<key>scope</key>
+	<string>text.html.php.cake</string>
+	<key>tabTrigger</key>
+	<string>form</string>
+	<key>uuid</key>
+	<string>6C60A273-C6BB-4EC9-A365-FE8140D31CEA</string>
+</dict>
+</plist>

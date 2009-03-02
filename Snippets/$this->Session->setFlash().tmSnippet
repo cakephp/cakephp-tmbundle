@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;Session-&gt;setFlash(${1:'${2:Message}'}$3);
+$0</string>
+	<key>name</key>
+	<string>$this-&gt;Session-&gt;setFlash()</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>sflash</string>
+	<key>uuid</key>
+	<string>269247B5-C5AC-4B34-9F69-DAD5EBBD446C</string>
+</dict>
+</plist>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php
+/**
+ * $1sController
+ * 
+ * [Short Description]
+ *
+ * @package ${2:default}
+ * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
+ * @version \$Id\$
+ * @copyright ${PHPDOC_AUTHOR:$TM_ORGANIZATION_NAME}
+ **/
+
+class ${1:PluralModelName}sController extends AppController {
+/**
+ * The name of this controller. Controller names are plural, named after the model they manipulate.
+ *
+ * @var string
+ * @access public
+ */
+	var \$name = '$1s';
+
+/**
+ * An array containing the names of helpers this controller uses. The array elements should
+ * not contain the "Helper" part of the classname.
+ *
+ * @var mixed A single name as a string or a list of names as an array.
+ * @access protected
+ */
+	${3:var \$helpers = array(${4:'Html', 'Form'});}
+
+/**
+ * Array containing the names of components this controller uses. Component names
+ * should not contain the "Component" portion of the classname.
+ *
+ * @var array
+ * @access public
+ */
+	var \$components = array();
+
+
+/**
+ * Index action.
+ *
+ * @access public
+ */
+	function index() {
+
+	}
+
+/**
+ * View action
+ *
+ * @access public
+ * @param integer \$id ID of record
+ */	
+	function ${6}view(\$id = null) {
+		if (!\$id) {
+			\$this-&gt;Session-&gt;setFlash(__('Invalid $1.', true));
+			\$this-&gt;redirect(array('action'=&gt;'index'));
+		}
+		\$this-&gt;set('data', $this-&gt;$1-&gt;read(null, \$id));
+	}
+
+/**
+ * Called before the controller action.
+ *
+ * @access public
+ */
+	function beforeFilter() {
+	}
+
+/**
+ * Called after the controller action is run, but before the view is rendered.
+ *
+ * @access public
+ */
+	function beforeRender() {
+	}
+
+/**
+ * Called after the controller action is run and rendered.
+ *
+ * @access public
+ */
+	function afterFilter() {
+	}
+}
+?&gt;</string>
+	<key>name</key>
+	<string>New Controller</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>control</string>
+	<key>uuid</key>
+	<string>03D809B4-7F9C-4F30-A402-60DDF7F8EBE6</string>
+</dict>
+</plist>
