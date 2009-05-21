@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;redirect(\$this-&gt;referer(${1:'/'}));</string>
+	<key>name</key>
+	<string>$this-&gt;redirect($this-&gt;referer());</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>redref</string>
+	<key>uuid</key>
+	<string>732DC79E-EDA0-496F-BC9E-96357F379F38</string>
+</dict>
+</plist>
