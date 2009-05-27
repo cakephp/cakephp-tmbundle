@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>'${1:column_name}' =&gt; array('column' =&gt; '${1:column_name}', 'unique' =&gt; 1)
+</string>
+	<key>name</key>
+	<string>Unique Index</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>sch</string>
+	<key>uuid</key>
+	<string>0D040AA1-BF6C-48B5-9C21-F23E7D83802A</string>
+</dict>
+</plist>
