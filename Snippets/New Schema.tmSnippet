@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>var \$${1:table_name} = array(
+	'id' =&gt; array('type' =&gt; 'integer', 'null' =&gt; false, 'default' =&gt; NULL, 'key' =&gt; 'primary'),$0
+	'created' =&gt; array('type' =&gt; 'datetime', 'null' =&gt; false),
+	'modified' =&gt; array('type' =&gt; 'datetime', 'null' =&gt; false),
+	'indexes' =&gt; array('PRIMARY' =&gt; array('column' =&gt; 'id', 'unique' =&gt; 1))
+);
+</string>
+	<key>name</key>
+	<string>New Schema</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>sch</string>
+	<key>uuid</key>
+	<string>B4249811-2173-41ED-98D0-875C19AC7ED5</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>'${1:column}' =&gt; array('type' =&gt; '${2:string/text/integer/float/datetime/timestamp/time/date/binary/boolean}', 'null' =&gt; ${3:false}${4:, 'length' =&gt; ${5:255}}${6:, 'key' =&gt; 'unique'}),$0</string>
+	<key>name</key>
+	<string>Schema Column</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>sch</string>
+	<key>uuid</key>
+	<string>44E83754-D2B8-4E9C-93A7-27C39040F264</string>
+</dict>
+</plist>
