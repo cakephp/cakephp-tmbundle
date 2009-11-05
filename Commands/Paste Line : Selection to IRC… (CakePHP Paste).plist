@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>beforeRunningCommand</key>
@@ -27,7 +27,6 @@
   fi
 fi
 
- 
 result=$(CocoaDialog textbox \
     --title 'Describe Paste' \
     --text 'This paste is about' \
@@ -38,30 +37,22 @@ result=$(CocoaDialog textbox \
     then NOTE="${result:2}"
     else exit_discard
   fi
-# set the language to one rafb.net supports
-case $TM_MODE in
-  C89|C|C++|C\#|Java|Pascal|Perl|PHP|PL/I|Python|Ruby|SQL|VB)
-    # do nothing
-  ;;
-  *)
-    TM_MODE="php"
-  ;;
-esac
 
-: ${TM_PASTE_URL:=http://cakephp.org/pastes/add}
-url=$(curl "${TM_PASTE_URL}" -F "data[Paste][nick]"="$USER" -F cvt_tabs="$TM_TAB_SIZE" -F data[Paste][paste]='&lt;-' -F "data[Paste][lang]"="php" -F "data[Paste][note]"="${NOTE}" -s -L -o /dev/null -w "%{url_effective}" \
+SERVER='http://bin.cakephp.org'
+
+url=$(curl -s -L -o /dev/null -w "%{url_effective}" -d "data[NewPaste][body]=$TM_SELECTED_TEXT&amp;data[NewPaste][nick]=$USER&amp;data[NewPaste][lang]=php&amp;data[NewPaste][note]=$NOTE" $SERVER \
   2&gt; &gt;(CocoaDialog progressbar --indeterminate \
-    --title "Paste to #${TM_IRC_CHANNEL}…" \
-    --text "Contacting Server “${TM_PASTE_URL}”…" \
+    --title "Paste to ${TM_IRC_CHANNEL}…" \
+    --text "Contacting Server $SERVER..." \
   ))
 
 [[ -z "$url" ]] &amp;&amp; exit_show_tool_tip "Error: Got no URL back from pasting service."
 
 if ps -xc|grep -sq 'Colloquy$'; then
-  osascript -e 'tell application "Colloquy" to send message "pasted '"$url"'" action tense yes to (get chat room "#'"$TM_IRC_CHANNEL"'" of first connection)'
-  echo "The text was pasted to #$TM_IRC_CHANNEL."
+  osascript -e 'tell application "Colloquy" to send message "pasted '"$url"'" action tense yes to (get chat room "'"$TM_IRC_CHANNEL"'" of first connection)'
+  echo "The text was pasted to $TM_IRC_CHANNEL."
 else
-  echo -n "$url" | pbcopy
+  echo -n $url | pbcopy
   echo "The text is available as $url"
   echo "For your convenience, the URL was placed on the clipboard."
 fi
