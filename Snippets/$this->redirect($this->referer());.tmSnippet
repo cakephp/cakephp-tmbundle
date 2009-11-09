@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>debug(\$${1:data});</string>
+	<string>\$this-&gt;redirect(\$this-&gt;referer(${1:'/'}));</string>
 	<key>name</key>
-	<string>debug()</string>
+	<string>$this-&gt;redirect($this-&gt;referer());</string>
 	<key>scope</key>
-	<string>source.php.cake, text.html.php.cake</string>
+	<string>source.php.cake</string>
 	<key>tabTrigger</key>
-	<string>de</string>
+	<string>redref</string>
 	<key>uuid</key>
-	<string>B7351596-BC93-4E7A-A996-C6257E4F7B09</string>
+	<string>732DC79E-EDA0-496F-BC9E-96357F379F38</string>
 </dict>
 </plist>

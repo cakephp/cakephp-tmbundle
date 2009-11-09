@@ -3,14 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>debug(\$${1:data});</string>
+	<string>\$this-&gt;assertPattern(${1:'/${2:pattern}/'}, ${3:\$result});
+$0</string>
 	<key>name</key>
-	<string>debug()</string>
+	<string>$this-&gt;assertPattern()</string>
 	<key>scope</key>
-	<string>source.php.cake, text.html.php.cake</string>
+	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>de</string>
+	<string>assertP</string>
 	<key>uuid</key>
-	<string>B7351596-BC93-4E7A-A996-C6257E4F7B09</string>
+	<string>558C7AF5-FDAD-4AF7-9DEA-AF6943B3339C</string>
 </dict>
 </plist>

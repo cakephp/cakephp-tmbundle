@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>
-*</string>
-	<key>keyEquivalent</key>
-	<string></string>
+	<string>\$this-&gt;assertFalse(${1:\$result});
+$0</string>
 	<key>name</key>
-	<string>Docblock</string>
+	<string>$this-&gt;assertFalse()</string>
 	<key>scope</key>
-	<string>comment.block.php, comment.block.documentation.phpdoc</string>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>assertF</string>
 	<key>uuid</key>
-	<string>C5C4E48D-F3E1-473C-84A0-5389E4BD1438</string>
+	<string>5F94353B-7F33-488F-97DF-5C36066F2271</string>
 </dict>
 </plist>
