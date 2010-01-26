@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php echo \$this-&gt;Form-&gt;meridian('${1:Model}.${2:field}'$3); ?&gt;
+$0</string>
+	<key>name</key>
+	<string>$this-&gt;Form-&gt;meridian()</string>
+	<key>scope</key>
+	<string>text.html.php.cake</string>
+	<key>tabTrigger</key>
+	<string>merid</string>
+	<key>uuid</key>
+	<string>75F1BF92-1796-45B3-972B-CC162CC01C33</string>
+</dict>
+</plist>

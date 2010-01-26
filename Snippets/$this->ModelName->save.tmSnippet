@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;${1:ModelName}-&gt;save(${2:\$this-&gt;data})</string>
+	<key>name</key>
+	<string>$this-&gt;ModelName-&gt;save()</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>save</string>
+	<key>uuid</key>
+	<string>CC8293A8-BAB4-4C2E-8A99-596E2383A698</string>
+</dict>
+</plist>

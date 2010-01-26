@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function beforeDelete() {
+	$1
+}</string>
+	<key>name</key>
+	<string>Model::beforeDelete()</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>beforedelete</string>
+	<key>uuid</key>
+	<string>800182B7-7AFC-4319-A2B6-5D766CF61DB2</string>
+</dict>
+</plist>

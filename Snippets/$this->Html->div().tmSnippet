@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php echo \$this-&gt;Html-&gt;div($1); ?&gt;
+$0</string>
+	<key>name</key>
+	<string>$this-&gt;Html-&gt;div()</string>
+	<key>scope</key>
+	<string>text.html.php.cake</string>
+	<key>tabTrigger</key>
+	<string>div</string>
+	<key>uuid</key>
+	<string>54E90DA9-654B-4C3B-B262-8807058CE38F</string>
+</dict>
+</plist>

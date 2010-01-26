@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>var \$hasAndBelongsToMany = array('${1:Model}'${2: =&gt; array(${3:'className' =&gt; '${4:${1:ModelClassName}}', }${5:'foreignKey' =&gt; '${6:foreign_key_field}'})});</string>
+	<key>name</key>
+	<string>var $hasAndBelongsToMany</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>habtm</string>
+	<key>uuid</key>
+	<string>B9EB6976-0C0B-4BFB-A749-1F9C8BC53621</string>
+</dict>
+</plist>
