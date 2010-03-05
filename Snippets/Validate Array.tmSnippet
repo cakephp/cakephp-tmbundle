@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>var \$validate = array(
+	'${1:field_name}' =&gt; array(
+		'${2:ruleAlias}'=&gt;array(
+			'rule' =&gt; '${3:ruleName}',
+			'message' =&gt; '${4:Please enter a valid ${1/_/ /g}}.',
+			${5:'allowEmpty' =&gt; ${6:true}}
+		),$0
+	),
+);</string>
+	<key>name</key>
+	<string>Validation Array</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>val</string>
+	<key>uuid</key>
+	<string>3A68854C-1DE7-414B-8A53-BB55F74261C3</string>
+</dict>
+</plist>
