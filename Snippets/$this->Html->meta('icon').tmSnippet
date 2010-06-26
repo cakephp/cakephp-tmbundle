@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$this-&gt;Html-&gt;meta('icon', ${1:\$this-&gt;webroot('${2:favicon.ico}')}) ?&gt;</string>
+	<string>&lt;?php echo \$this-&gt;Html-&gt;meta('icon', ${1:\$this-&gt;webroot('${2:favicon.ico}')}); ?&gt;</string>
 	<key>name</key>
 	<string>$this-&gt;Html-&gt;meta('icon')</string>
 	<key>scope</key>

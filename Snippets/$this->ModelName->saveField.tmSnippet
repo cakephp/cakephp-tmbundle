@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;${1:ModelName}-&gt;saveField(${2:'$3'}, ${4:\$fieldValue})</string>
+	<string>\$this-&gt;${1:ModelName}-&gt;saveField(${2:'$3'}, ${4:\$fieldValue});</string>
 	<key>name</key>
 	<string>$this-&gt;ModelName-&gt;saveField()</string>
 	<key>scope</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$this-&gt;Html-&gt;getCrumbs(${1:'${2:«separator»}'}) ?&gt;</string>
+	<string>&lt;?php echo \$this-&gt;Html-&gt;getCrumbs(${1:'${2:«separator»}'}); ?&gt;</string>
 	<key>name</key>
 	<string>$this-&gt;Html-&gt;getCrumbs()</string>
 	<key>scope</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$this-&gt;Html-&gt;meta('keywords', ${1:'${2:your keywords here}'}) ?&gt;</string>
+	<string>&lt;?php echo \$this-&gt;Html-&gt;meta('keywords', ${1:'${2:your keywords here}'}); ?&gt;</string>
 	<key>name</key>
 	<string>$this-&gt;Html-&gt;meta('keywords')</string>
 	<key>scope</key>

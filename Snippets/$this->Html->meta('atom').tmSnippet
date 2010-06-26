@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$this-&gt;Html-&gt;meta('atom', ${1:\$this-&gt;webroot('${2:atom.xml}')}) ?&gt;</string>
+	<string>&lt;?php echo \$this-&gt;Html-&gt;meta('atom', ${1:\$this-&gt;webroot('${2:atom.xml}')}); ?&gt;</string>
 	<key>name</key>
 	<string>$this-&gt;Html-&gt;meta('atom')</string>
 	<key>scope</key>

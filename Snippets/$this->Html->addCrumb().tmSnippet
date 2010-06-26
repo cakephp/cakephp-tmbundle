@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php \$this-&gt;Html-&gt;addCrumb('${1:CrumbName}'${2:, '${3:CrumbLink}'}) ?&gt;</string>
+	<string>&lt;?php \$this-&gt;Html-&gt;addCrumb('${1:CrumbName}'${2:, '${3:CrumbLink}'}); ?&gt;</string>
 	<key>name</key>
 	<string>$this-&gt;Html-&gt;addCrumb()</string>
 	<key>scope</key>

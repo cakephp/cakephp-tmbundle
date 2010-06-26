@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;${1:ModelName}-&gt;deleteAll(${2:\$conditions}${3:, ${4:\$cascade}})</string>
+	<string>\$this-&gt;${1:ModelName}-&gt;deleteAll(${2:\$conditions}${3:, ${4:\$cascade}});</string>
 	<key>name</key>
 	<string>$this-&gt;ModelName-&gt;deleteAll()</string>
 	<key>scope</key>
