@@ -3,15 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;render(${1:'${2:action}'}$3);
-$0</string>
+	<string>'${1:ruleAlias}'=&gt;array(
+	'rule' =&gt; '${2:ruleName}',
+	'message' =&gt; '${4:Please enter a valid ${3:XX}}.',
+	${5:'allowEmpty' =&gt; ${6:true}}
+),$0</string>
 	<key>name</key>
-	<string>Controller::render()</string>
+	<string>Validation Rule</string>
 	<key>scope</key>
 	<string>source.php.cake</string>
 	<key>tabTrigger</key>
-	<string>ren</string>
+	<string>val</string>
 	<key>uuid</key>
-	<string>51133511-DD51-4DAD-9F25-E746F46A5544</string>
+	<string>B6C0421B-848F-478B-8DDB-4FBC2E7A38F6</string>
 </dict>
 </plist>
