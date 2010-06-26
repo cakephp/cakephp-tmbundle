@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php
+/**
+ * $1sComponent
+ * 
+ * [Short Description]
+ *
+ * @package ${2:default}
+ * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
+ * @version \$Id\$
+ * @copyright ${PHPDOC_AUTHOR:$TM_ORGANIZATION_NAME}
+ **/
+
+class ${1:PluralModelName}Component extends Object {
+
+/**
+ * Array containing the names of components this component uses. Component names
+ * should not contain the "Component" portion of the classname.
+ *
+ * @var array
+ * @access public
+ */
+	var \$components = array();
+
+/**
+ * Called before the Controller::beforeFilter().
+ *
+ * @param object $controller A reference to the controller
+ * @return void
+ * @access public
+ * @link http://book.cakephp.org/view/65/MVC-Class-Access-Within-Components
+ */
+	function initialize(&amp;\$controller, \$settings = array()) {
+		if (!isset(\$this-&gt;__settings[\$controller-&gt;name])) {
+			\$settings = \$this-&gt;__settings[\$controller-&gt;name];
+		}
+	}
+
+/**
+ * Called after the Controller::beforeFilter() and before the controller action
+ *
+ * @param object $controller A reference to the controller
+ * @return void
+ * @access public
+ * @link http://book.cakephp.org/view/65/MVC-Class-Access-Within-Components
+ */
+	function startup(&amp;\$controller) {
+	}
+
+/**
+ * Called after the Controller::beforeRender(), after the view class is loaded, and before the
+ * Controller::render()
+ *
+ * @param object $controller A reference to the controller
+ * @return void
+ * @access public
+ */
+	function beforeRender(&amp;\$controller) {
+	}
+
+/**
+ * Called after Controller::render() and before the output is printed to the browser.
+ *
+ * @param object $controller A reference to the controller
+ * @return void
+ * @access public
+ */
+	function shutdown(&amp;\$controller) {
+	}
+
+/**
+ * Called before Controller::redirect()
+ *
+ * @param object $controller A reference to the controller
+ * @param mixed $url A string or array containing the redirect location
+ * @access public
+ */
+	function beforeRedirect(&amp;\$controller, \$url, \$status = null, \$exit = true) {
+	}
+}
+?&gt;</string>
+	<key>name</key>
+	<string>New Component</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>component</string>
+	<key>uuid</key>
+	<string>851FE129-A51B-41E1-9770-4D0C1D8AC09E</string>
+</dict>
+</plist>
