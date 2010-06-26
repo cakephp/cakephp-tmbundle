@@ -63,7 +63,7 @@ class ${1:PluralModelName}sController extends AppController {
 			\$this-&gt;Session-&gt;setFlash(__('Invalid $1.', true));
 			\$this-&gt;redirect(array('action'=&gt;'index'));
 		}
-		\$this-&gt;set('data', $this-&gt;$1-&gt;read(null, \$id));
+		\$this-&gt;set('data', \$this-&gt;$1-&gt;read(null, \$id));
 	}
 
 /**
