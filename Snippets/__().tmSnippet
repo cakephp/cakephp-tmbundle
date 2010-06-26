@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>
-*</string>
-	<key>keyEquivalent</key>
-	<string></string>
+	<string>&lt;?php __('${1}'${2:, true}); ?&gt;$0 </string>
 	<key>name</key>
-	<string>Docblock</string>
+	<string>&lt;?php __() ?&gt;</string>
 	<key>scope</key>
-	<string>comment.block.php, comment.block.documentation.phpdoc</string>
+	<string>text.html.php.cake</string>
+	<key>tabTrigger</key>
+	<string>__</string>
 	<key>uuid</key>
-	<string>C5C4E48D-F3E1-473C-84A0-5389E4BD1438</string>
+	<string>A5BF43CF-5164-4955-9BB7-D25C1C6C013D</string>
 </dict>
 </plist>
