@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$content_for_layout ?&gt;</string>
+	<string>&lt;?php echo \$scripts_for_layout; ?&gt;</string>
 	<key>name</key>
-	<string>$content_for_layout</string>
+	<string>$scripts_for_layout</string>
 	<key>scope</key>
 	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
-	<string>cfl</string>
+	<string>sfl</string>
 	<key>uuid</key>
-	<string>945839C6-EAE7-4E1D-9E30-45BE6EE3AE32</string>
+	<string>F32F2C9B-6227-469E-90C4-02FD2FEDB354</string>
 </dict>
 </plist>
