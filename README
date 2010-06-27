@@ -1,4 +1,4 @@
-Installation:
+## Installation:
 
 Fire up Terminal, and enter the following two commands:
 
@@ -13,3 +13,7 @@ git clone git://github.com/scrogson/tm_bundle.git CakePHP.tmbundle
 Finally, to activate the bundle in TextMate:
 
 In TextMate: Bundles > Bundle Editor > Reload Bundles
+
+## What the bundle does
+
+This bundle provides a number of snippets for common CakePHP classes.  It also provides shortcuts to searching book.cakephp.org, api.cakephp.org and pasting into bin.cakephp.org.
