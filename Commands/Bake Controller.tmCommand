@@ -20,7 +20,7 @@ cake bake controller $TM_SELECTED_TEXT -interactive off -working "$TM_PROJECT_DI
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
-	<string>~@b</string>
+	<string>^B</string>
 	<key>name</key>
 	<string>Bake Controller</string>
 	<key>output</key>

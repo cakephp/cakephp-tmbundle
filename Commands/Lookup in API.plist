@@ -7,22 +7,21 @@
 	<key>bundlePath</key>
 	<string>/Users/kumar/Library/Application Support/TextMate/Bundles/Custom.tmbundle</string>
 	<key>command</key>
-	<string>if [ `echo "$TM_SELECTED_TEXT" | grep -Ev '[a-zA-Z0-9_]+'` ]; then
+	<string>if [ `echo "$TM_CURRENT_WORD" | grep -Ev '[a-zA-Z0-9_]+'` ]; then
 	echo "Nothing to lookup (hint: place the cursor on a function name)"
 	exit 1
 fi
-
-echo "&lt;html&gt;&lt;head&gt;&lt;meta http-equiv=\"Refresh\" content=\"0; URL=http://api.cakephp.org/search/$TM_SELECTED_TEXT\"&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"</string>
+open http://api.cakephp.org/search/$TM_CURRENT_WORD</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>^~/</string>
+	<string>^H</string>
 	<key>name</key>
 	<string>Lookup in API</string>
 	<key>output</key>
-	<string>showAsHTML</string>
+	<string>discard</string>
 	<key>scope</key>
-	<string>source.php</string>
+	<string>source.php.cake, text.html.php.cake</string>
 	<key>uuid</key>
 	<string>365F0868-308E-44BC-8781-2B65CBF48B74</string>
 </dict>

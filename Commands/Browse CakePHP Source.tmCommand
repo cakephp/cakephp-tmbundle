@@ -5,7 +5,7 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>open "http://github.com/cakephp/cakephp1x"</string>
+	<string>open "http://github.com/cakephp/cakephp"</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
