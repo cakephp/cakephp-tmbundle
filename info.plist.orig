@@ -43,8 +43,18 @@
 			<string>FA824CBC-0414-46E1-9DD0-F202E5537BCE</string>
 			<string>5100B3CC-EC3D-4F4B-A30E-C8B33B9635EF</string>
 			<string>B3FEFE65-1B72-4166-A181-5288DCA14F3E</string>
+<<<<<<< HEAD
+			<string>------------------------------------</string>
+			<string>437FF714-397B-47BC-A1ED-680E48AD476E</string>
+			<string>------------------------------------</string>
+			<string>B2B6011C-955C-4C6D-A5B8-7875C13CCDD1</string>
+			<string>F2C88F6A-CDA3-4270-9433-A23A8F8D82C3</string>
+			<string>5F94353B-7F33-488F-97DF-5C36066F2271</string>
+			<string>558C7AF5-FDAD-4AF7-9DEA-AF6943B3339C</string>
+=======
 			<string>945839C6-EAE7-4E1D-9E30-45BE6EE3AE32</string>
 			<string>44F459B9-7947-4C96-94ED-7B8170BD5CAD</string>
+>>>>>>> 1.3
 		</array>
 		<key>submenus</key>
 		<dict>

@@ -5,9 +5,9 @@
 	<key>content</key>
 	<string>&lt;?php
 /**
- * $ Model
+ * $1 Model
  * 
- * [Short Description]
+ * ${3:[Short Description]}
  *
  * @package ${2:default}
  * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}

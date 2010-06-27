@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function onError() {
+	$1
+}</string>
+	<key>name</key>
+	<string>Model::onError()</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>onerror</string>
+	<key>uuid</key>
+	<string>C86C2A7E-49A0-4C31-A600-888A65722EA0</string>
+</dict>
+</plist>

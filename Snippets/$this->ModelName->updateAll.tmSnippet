@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;${1:ModelName}-&gt;updateAll(${2:\$fields}${3:, ${4:\$conditions}});</string>
+	<key>name</key>
+	<string>$this-&gt;ModelName-&gt;updateAll()</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>upa</string>
+	<key>uuid</key>
+	<string>36A6B36E-F35C-4F28-969F-3A907D4ED8B7</string>
+</dict>
+</plist>

@@ -8,15 +8,19 @@
 		<string>php</string>
 	</array>
 	<key>foldingStartMarker</key>
-	<string>(/\*|\{|\()</string>
+	<string>(/\*|\{\s*$|&lt;&lt;&lt;HTML|\(\s*$)</string>
 	<key>foldingStopMarker</key>
-	<string>(\*/|\}|\))</string>
+	<string>(\*/|^\s*\}|^HTML;|\s*\);)</string>
 	<key>keyEquivalent</key>
 	<string>^~C</string>
 	<key>name</key>
 	<string>CakePHP</string>
 	<key>patterns</key>
 	<array>
+		<dict>
+			<key>include</key>
+			<string>source.php</string>
+		</dict>
 		<dict>
 			<key>begin</key>
 			<string>\{</string>
@@ -188,10 +192,6 @@
 			<string>\b(load(Models|PluginModels|View|Model|Controllers|PluginController)|listClasses|config|gendor|debug|aa|ha|a|e|low|up|r|pr|params|am|setUri|env|cache|clearCache|stripslashes_deep|countDim|LogError|fileExistsInPath|convertSlash)\b</string>
 			<key>name</key>
 			<string>support.function.basics.cake</string>
-		</dict>
-		<dict>
-			<key>include</key>
-			<string>source.php</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

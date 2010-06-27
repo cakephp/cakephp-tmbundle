@@ -20,7 +20,7 @@ cake bake model $TM_SELECTED_TEXT -interactive off -working "$TM_PROJECT_DIRECTO
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
-	<string>~@b</string>
+	<string>^B</string>
 	<key>name</key>
 	<string>Bake Model</string>
 	<key>output</key>
