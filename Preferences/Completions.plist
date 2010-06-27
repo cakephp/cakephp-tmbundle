@@ -85,7 +85,6 @@
 			<string>findCount</string>
 			<string>findIn</string>
 			<string>flash</string>
-			<string>flay</string>
 			<string>form</string>
 			<string>formatColumns</string>
 			<string>fromString</string>
@@ -196,6 +195,7 @@
 			<string>ROOT</string>
 			<string>save</string>
 			<string>saveField</string>
+			<string>script</string>
 			<string>SCRIPTS</string>
 			<string>set</string>
 			<string>setAction</string>
@@ -240,8 +240,10 @@
 			<string>up</string>
 			<string>url</string>
 			<string>urlFor</string>
+			<string>user</string>
 			<string>valid</string>
 			<string>validate</string>
+			<string>virtualFields</string>
 			<string>validateErrors</string>
 			<string>validates</string>
 			<string>VENDORS</string>
@@ -252,6 +254,7 @@
 			<string>WEBROOT_DIR</string>
 			<string>writable</string>
 			<string>write</string>
+			<string>writeBuffer</string>
 			<string>writeEvents</string>
 			<string>WWW_ROOT</string>
 		</array>
