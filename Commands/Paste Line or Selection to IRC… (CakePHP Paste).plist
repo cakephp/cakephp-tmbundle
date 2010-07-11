@@ -64,7 +64,7 @@ fi
 	<key>keyEquivalent</key>
 	<string>^~V</string>
 	<key>name</key>
-	<string>Paste Line / Selection to IRC… (CakePHP Paste)</string>
+	<string>Paste Line or Selection to IRC… (CakePHP Paste)</string>
 	<key>output</key>
 	<string>discard</string>
 	<key>uuid</key>
