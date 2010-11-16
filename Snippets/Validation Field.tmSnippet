@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>content</key>
-	<string>'${1:field_name}' =&gt; array(
+    <dict>
+        <key>content</key>
+        <string>'${1:field_name}' =&gt; array(
 	'${2:ruleAlias}'=&gt;array(
 		'rule' =&gt; '${3:ruleName}',
-		'message' =&gt; '${4:Please enter a valid ${1/_/ /g}}.',
-		${5:'allowEmpty' =&gt; ${6:true}}
+		'message' =&gt; '${4:Please enter a valid ${1/_/ /g}}.',${5:
+		'allowEmpty' =&gt; ${6:true},}
 	),$0
 ),</string>
-	<key>name</key>
-	<string>Validation Field</string>
-	<key>scope</key>
-	<string>source.php.cake</string>
-	<key>tabTrigger</key>
-	<string>val</string>
-	<key>uuid</key>
-	<string>C549692D-65FB-45DF-B1CE-54FF15C3F3AF</string>
-</dict>
+        <key>name</key>
+        <string>Validation Field</string>
+        <key>scope</key>
+        <string>source.php.cake</string>
+        <key>tabTrigger</key>
+        <string>val</string>
+        <key>uuid</key>
+        <string>C549692D-65FB-45DF-B1CE-54FF15C3F3AF</string>
+    </dict>
 </plist>

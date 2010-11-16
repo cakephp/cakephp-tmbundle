@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>New Helper</string>
+        <key>uuid</key>
+        <string>7AA382AD-A331-449F-8F48-C9D8E99D73EC</string>
+        <key>content</key>
+        <string>&lt;?php
+/**
+ * $1Helper
+ * 
+ * [Short Description]
+ *
+ * @package ${2:default}
+ * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
+ * @version \$Id\$
+ * @copyright ${PHPDOC_AUTHOR:$TM_ORGANIZATION_NAME}
+ **/
+
+class ${1:HelperName}Helper extends AppHelper {
+
+	${3:/**
+	 * An array containing the names of helpers this controller uses. The array elements should
+	 * not contain the "Helper" part of the classname.
+	 *
+	 * @var mixed A single name as a string or a list of names as an array.
+	 * @access protected
+	 */
+	var \$helpers = array(${4:'Html', 'Form'});
+
+	}${5:/**
+	 * Called after the controller action is run, but before the view is rendered.
+	 *
+	 * @access public
+	 */
+	function beforeRender() {
+		${6}
+	\}
+	
+	}${7}
+}</string>
+        <key>scope</key>
+        <string>source.php.cake</string>
+        <key>tabTrigger</key>
+        <string>help</string>
+    </dict>
+</plist>
