@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>content</key>
-	<string>var \$hasMany = array(
+    <dict>
+        <key>content</key>
+        <string>var \$hasMany = array(
 	'${1:Model}'${2: =&gt; array(
-		${3:'className' =&gt; '${4:${1:ModelClassName}}', }
-		${5:'foreignKey' =&gt; '${6:foreign_key_field}'}
+		${3:'className' =&gt; '${4:${1:ModelClassName}}',}
+		${5:'foreignKey' =&gt; '${6:foreign_key_field}',}
 	)},
 );</string>
-	<key>name</key>
-	<string>var $hasMany</string>
-	<key>scope</key>
-	<string>source.php.cake</string>
-	<key>tabTrigger</key>
-	<string>hm</string>
-	<key>uuid</key>
-	<string>60D98FB5-7FAC-4ED8-86EB-31F379F8EA20</string>
-</dict>
+        <key>name</key>
+        <string>var $hasMany</string>
+        <key>scope</key>
+        <string>source.php.cake</string>
+        <key>tabTrigger</key>
+        <string>hm</string>
+        <key>uuid</key>
+        <string>60D98FB5-7FAC-4ED8-86EB-31F379F8EA20</string>
+    </dict>
 </plist>

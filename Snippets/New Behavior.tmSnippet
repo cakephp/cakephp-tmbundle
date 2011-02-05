@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>content</key>
-	<string>&lt;?php
+    <dict>
+        <key>content</key>
+        <string>&lt;?php
 /**
  * $1 Model Behavior
  * 
@@ -16,145 +16,143 @@
  **/
 class ${1:My}Behavior extends ModelBehavior {
 
-/**
- * Contains configuration settings for use with individual model objects.
- * Individual model settings should be stored as an associative array, 
- * keyed off of the model name.
- *
- * @var array
- * @access public
- * @see Model::\$alias
- */
+	/**
+	 * Contains configuration settings for use with individual model objects.
+	 * Individual model settings should be stored as an associative array, 
+	 * keyed off of the model name.
+	 *
+	 * @var array
+	 * @access public
+	 * @see Model::\$alias
+	 */
 	var \$settings = array($0);
 
-/**
- * Allows the mapping of preg-compatible regular expressions to public or
- * private methods in this class, where the array key is a /-delimited regular
- * expression, and the value is a class method.  Similar to the functionality of
- * the findBy* / findAllBy* magic methods.
- *
- * @var array
- * @access public
- */
+	/**
+	 * Allows the mapping of preg-compatible regular expressions to public or
+	 * private methods in this class, where the array key is a /-delimited regular
+	 * expression, and the value is a class method.  Similar to the functionality of
+	 * the findBy* / findAllBy* magic methods.
+	 *
+	 * @var array
+	 * @access public
+	 */
 	var \$mapMethods = array();
 
 
-/**
- * Initiate $1 Behavior
- *
- * @param object \$model
- * @param array \$config
- * @return void
- * @access public
- */
+	/**
+	 * Initiate $1 Behavior
+	 *
+	 * @param object \$model
+	 * @param array \$config
+	 * @return void
+	 * @access public
+	 */
 	function setup(&amp;\$model, \$config = array()) {
 
 	}
 
 	/* -- All possible behavior callbacks have been stubbed out. Remove those you do not need. -- */
 
-/**
- * Before find callback
- *
- * @param object \$model Model using this behavior
- * @param array \$queryData Data used to execute this query, i.e. conditions, order, etc.
- * @return boolean True if the operation should continue, false if it should abort
- * @access public
- */
+	/**
+	 * Before find callback
+	 *
+	 * @param object \$model Model using this behavior
+	 * @param array \$queryData Data used to execute this query, i.e. conditions, order, etc.
+	 * @return boolean True if the operation should continue, false if it should abort
+	 * @access public
+	 */
 	function beforeFind(&amp;\$model, \$query) { 
 		return true;
 	}
 
-/**
- * After find callback. Can be used to modify any results returned by find and findAll.
- *
- * @param object \$model Model using this behavior
- * @param mixed \$results The results of the find operation
- * @param boolean \$primary Whether this model is being queried directly (vs. being queried as an association)
- * @return mixed Result of the find operation
- * @access public
- */
+	/**
+	 * After find callback. Can be used to modify any results returned by find and findAll.
+	 *
+	 * @param object \$model Model using this behavior
+	 * @param mixed \$results The results of the find operation
+	 * @param boolean \$primary Whether this model is being queried directly (vs. being queried as an association)
+	 * @return mixed Result of the find operation
+	 * @access public
+	 */
 	function afterFind(&amp;\$model, \$results, \$primary) { 
 		return \$results;
 	}
 
-/**
- * Before validate callback
- *
- * @param object \$model Model using this behavior
- * @return boolean True if validate operation should continue, false to abort
- * @access public
- */
+	/**
+	 * Before validate callback
+	 *
+	 * @param object \$model Model using this behavior
+	 * @return boolean True if validate operation should continue, false to abort
+	 * @access public
+	 */
 	function beforeValidate(&amp;\$model) { 
 		return true;
 	}
 
-/**
- * Before save callback
- *
- * @param object \$model Model using this behavior
- * @return boolean True if the operation should continue, false if it should abort
- * @access public
- */
+	/**
+	 * Before save callback
+	 *
+	 * @param object \$model Model using this behavior
+	 * @return boolean True if the operation should continue, false if it should abort
+	 * @access public
+	 */
 	function beforeSave(&amp;\$model) { 
 		return true;
 	}
 
-/**
- * After save callback
- *
- * @param object \$model Model using this behavior
- * @param boolean \$created True if this save created a new record
- * @access public
- * @return boolean True if the operation succeeded, false otherwise
- */
+	/**
+	 * After save callback
+	 *
+	 * @param object \$model Model using this behavior
+	 * @param boolean \$created True if this save created a new record
+	 * @access public
+	 * @return boolean True if the operation succeeded, false otherwise
+	 */
 	function afterSave(&amp;\$model, \$created) { 
 		return true;
 	}
 
-/**
- * Before delete callback
- *
- * @param object \$model Model using this behavior
- * @param boolean \$cascade If true records that depend on this record will also be deleted
- * @return boolean True if the operation should continue, false if it should abort
- * @access public
- */
+	/**
+	 * Before delete callback
+	 *
+	 * @param object \$model Model using this behavior
+	 * @param boolean \$cascade If true records that depend on this record will also be deleted
+	 * @return boolean True if the operation should continue, false if it should abort
+	 * @access public
+	 */
 	function beforeDelete(&amp;\$model, \$cascade = true) { 
 		return true;
 	}
 
-/**
- * After delete callback
- *
- * @param object $model Model using this behavior
- * @access public
- */
+	/**
+	 * After delete callback
+	 *
+	 * @param object $model Model using this behavior
+	 * @access public
+	 */
 	function afterDelete(&amp;\$model) {
 
 	}
 
-/**
- * DataSource error callback
- *
- * @param object \$model Model using this behavior
- * @param string \$error Error generated in DataSource
- * @access public
- */
+	/**
+	 * DataSource error callback
+	 *
+	 * @param object \$model Model using this behavior
+	 * @param string \$error Error generated in DataSource
+	 * @access public
+	 */
 	function onError(&amp;\$model, \$error) { 
 	
 	}
 
-} // End of $1Behavior
-
-?&gt;</string>
-	<key>name</key>
-	<string>New Behavior</string>
-	<key>scope</key>
-	<string>source.php.cake</string>
-	<key>tabTrigger</key>
-	<string>behave</string>
-	<key>uuid</key>
-	<string>69697F8C-ED14-4E23-B334-F7B0DC78B83C</string>
-</dict>
+}</string>
+        <key>name</key>
+        <string>New Behavior</string>
+        <key>scope</key>
+        <string>source.php.cake</string>
+        <key>tabTrigger</key>
+        <string>behave</string>
+        <key>uuid</key>
+        <string>69697F8C-ED14-4E23-B334-F7B0DC78B83C</string>
+    </dict>
 </plist>
