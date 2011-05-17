@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>content</key>
-        <string>&lt;?php
+<dict>
+	<key>content</key>
+	<string>&lt;?php
 /**
  * $1Component
  * 
@@ -36,7 +36,7 @@ class ${1:PluralModelName}Component extends Object {
 	 */
 	function initialize(&amp;\$controller, \$settings = array()) {
 		if (!isset(\$this-&gt;__settings[\$controller-&gt;name])) {
-			\$settings = \$this-&gt;__settings[\$controller-&gt;name];
+			\$this-&gt;__settings[\$controller-&gt;name] = \$settings;
 		}
 	}
 
@@ -83,13 +83,13 @@ class ${1:PluralModelName}Component extends Object {
 	}
 }
 ?&gt;</string>
-        <key>name</key>
-        <string>New Component</string>
-        <key>scope</key>
-        <string>source.php.cake</string>
-        <key>tabTrigger</key>
-        <string>component</string>
-        <key>uuid</key>
-        <string>851FE129-A51B-41E1-9770-4D0C1D8AC09E</string>
-    </dict>
+	<key>name</key>
+	<string>New Component</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>component</string>
+	<key>uuid</key>
+	<string>851FE129-A51B-41E1-9770-4D0C1D8AC09E</string>
+</dict>
 </plist>

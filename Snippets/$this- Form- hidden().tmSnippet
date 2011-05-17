@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$this-&gt;Form-&gt;hidden('${1:Model}.${2:field}'$3); ?&gt;
-$0</string>
+	<string>&lt;?php echo \$this-&gt;Form-&gt;hidden('${1:Model}.${2:field}'$3); ?&gt;$0</string>
 	<key>name</key>
 	<string>$this-&gt;Form-&gt;hidden()</string>
 	<key>scope</key>

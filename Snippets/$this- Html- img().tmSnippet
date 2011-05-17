@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$this-&gt;Html-&gt;image('${1:image.ext}', array('alt'=&gt;'${2:altText}'$3)); ?&gt;
-$0</string>
+	<string>&lt;?php echo \$this-&gt;Html-&gt;image('${1:image.ext}', array('alt'=&gt;'${2:altText}'$3)); ?&gt;$0</string>
 	<key>name</key>
 	<string>$this-&gt;Html-&gt;image()</string>
 	<key>scope</key>

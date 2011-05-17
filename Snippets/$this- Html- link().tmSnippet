@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$this-&gt;Html-&gt;link('${1:text}', ${2:array('controller' =&gt; '${3:controller}', 'action' =&gt; '${4:action}'$5)}); ?&gt;
-$0</string>
+	<string>&lt;?php echo \$this-&gt;Html-&gt;link('${1:text}', ${2:array('controller' =&gt; '${3:controller}', 'action' =&gt; '${4:action}'$5)}); ?&gt;$0</string>
 	<key>name</key>
 	<string>$this-&gt;Html-&gt;link()</string>
 	<key>scope</key>
