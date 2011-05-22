@@ -3,8 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$this-&gt;Javascript-&gt;object(${1:\$data}); ?&gt;
-$0</string>
+	<string>`
+if [[ $TM_SCOPE != *source.php* ]]
+then
+        printf '&lt;?php '
+fi
+
+`echo \$this-&gt;Javascript-&gt;object(${1:\$data});`
+ 
+if [[ $TM_SCOPE != *source.php* ]]
+then
+        printf ' ?&gt;'
+fi
+`$0</string>
 	<key>name</key>
 	<string>$this-&gt;Javascript-&gt;object()</string>
 	<key>scope</key>

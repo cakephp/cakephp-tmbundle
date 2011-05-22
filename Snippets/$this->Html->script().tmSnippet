@@ -9,7 +9,7 @@ then
         printf '&lt;?php '
 fi
 
-`echo \$this-&gt;Form-&gt;hidden('${1:Model}.${2:field}'$3);`
+`echo \$this-&gt;Html-&gt;script(${1:array($2)}$3);`
  
 if [[ $TM_SCOPE != *source.php* ]]
 then
@@ -17,12 +17,12 @@ then
 fi
 `$0</string>
 	<key>name</key>
-	<string>$this-&gt;Form-&gt;hidden()</string>
+	<string>$this-&gt;Html-&gt;script()</string>
 	<key>scope</key>
 	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
-	<string>hid</string>
+	<string>script</string>
 	<key>uuid</key>
-	<string>B8A107DC-536B-4F25-8A84-F4ACBE40295B</string>
+	<string>25492799-DF06-4CDA-AB8C-4010E54C0484</string>
 </dict>
 </plist>

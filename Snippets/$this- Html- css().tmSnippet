@@ -3,8 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$this-&gt;Html-&gt;css(array('${1:filename}'$2)$3); ?&gt;
-$0</string>
+	<string>`
+if [[ $TM_SCOPE != *source.php* ]]
+then
+        printf '&lt;?php '
+fi
+
+`echo \$this-&gt;Html-&gt;css(array('${1:filename}'$2)$3);`
+ 
+if [[ $TM_SCOPE != *source.php* ]]
+then
+        printf ' ?&gt;'
+fi
+`$0</string>
 	<key>name</key>
 	<string>$this-&gt;Html-&gt;css()</string>
 	<key>scope</key>

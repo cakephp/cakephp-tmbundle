@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;Session-&gt;error();
-$0</string>
+	<string>\$this-&gt;Session-&gt;error();$0</string>
 	<key>name</key>
 	<string>$this-&gt;Session-&gt;error()</string>
 	<key>scope</key>

@@ -3,9 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php __('${1}'${2:, true}); ?&gt;$0 </string>
+	<string>`
+if [[ $TM_SCOPE != *source.php* ]]
+then
+        printf '&lt;?php '
+fi
+
+`__('${1}'${2:, true});`
+ 
+if [[ $TM_SCOPE != *source.php* ]]
+then
+        printf ' ?&gt;'
+fi
+`$0</string>
 	<key>name</key>
-	<string>&lt;?php __() ?&gt;</string>
+	<string>__()</string>
 	<key>scope</key>
 	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>

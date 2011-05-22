@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;Session-&gt;write('${1:Controller}.${2:key}', '${3:value}');
-$0</string>
+	<string>\$this-&gt;Session-&gt;write('${1:Controller}.${2:key}', '${3:value}');$0</string>
 	<key>name</key>
 	<string>$this-&gt;Session-&gt;write()</string>
 	<key>scope</key>
