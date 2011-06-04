@@ -2,13 +2,8 @@
 
 Fire up Terminal, and enter the following two commands:
 
-cd ~/Library/Application\ Support/TextMate/Bundles
-
-If you're using Codaset, run: 
-git clone git://codaset.com/scrogson/tm_bundle.git CakePHP.tmbundle
-
-If you're using GitHub, run:
-git clone git://github.com/scrogson/tm_bundle.git CakePHP.tmbundle
+    cd ~/Library/Application\ Support/TextMate/Bundles
+    git clone git://github.com/cakephp/cakephp-tmbundle.git CakePHP.tmbundle
 
 Finally, to activate the bundle in TextMate:
 
