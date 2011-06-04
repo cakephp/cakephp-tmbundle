@@ -3,26 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>`
-if [[ $TM_SCOPE != *source.php* ]]
-then
-        printf '&lt;?php '
-fi
-
-`__('${1}'${2:, true});`
- 
-if [[ $TM_SCOPE != *source.php* ]]
-then
-        printf ' ?&gt;'
-fi
-`</string>
+	<string>Set::insert(${1:\$list}, ${2:\$path}${3:, ${4:\$data = null}})</string>
 	<key>name</key>
-	<string>__()</string>
+	<string>Set::insert()</string>
 	<key>scope</key>
 	<string>text.html.php.cake, source.php</string>
 	<key>tabTrigger</key>
-	<string>__</string>
+	<string>Set</string>
 	<key>uuid</key>
-	<string>A5BF43CF-5164-4955-9BB7-D25C1C6C013D</string>
+	<string>797E29C6-B8EB-49F1-BC6C-49B7F7D814FB</string>
 </dict>
 </plist>

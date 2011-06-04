@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>var $layout;</string>
 	<key>scope</key>
-	<string>text.html.php.cake source.php</string>
+	<string>text.html.php.cake, source.php</string>
 	<key>tabTrigger</key>
 	<string>lay</string>
 	<key>uuid</key>

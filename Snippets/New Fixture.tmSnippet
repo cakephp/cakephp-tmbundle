@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php
+class ${1:Article}Fixture extends CakeTestFixture { 
+	var \$name = '${1:Article}';
+
+	var \$fields = array( 
+		${2:'id' =&gt; array('type' =&gt; 'integer', 'key' =&gt; 'primary'),
+		'created' =&gt; 'datetime', 
+		'updated' =&gt; 'datetime',
+		${3:'title' =&gt; array('type' =&gt; 'string', 'length' =&gt; 255, 'null' =&gt; false),}}$4
+	);
+
+	var \$records = array( 
+		${5:array ('id' =&gt; 1, 'title' =&gt; 'First Article', 'body' =&gt; 'First Article Body', 'published' =&gt; '1', 'created' =&gt; '2007-03-18 10:39:23', 'updated' =&gt; '2007-03-18 10:41:31'), 
+		array ('id' =&gt; 2, 'title' =&gt; 'Second Article', 'body' =&gt; 'Second Article Body', 'published' =&gt; '1', 'created' =&gt; '2007-03-18 10:41:23', 'updated' =&gt; '2007-03-18 10:43:31'), 
+		array ('id' =&gt; 3, 'title' =&gt; 'Third Article', 'body' =&gt; 'Third Article Body', 'published' =&gt; '1', 'created' =&gt; '2007-03-18 10:43:23', 'updated' =&gt; '2007-03-18 10:45:31'),}
+	); 
+}</string>
+	<key>name</key>
+	<string>New Fixture</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>fixture</string>
+	<key>uuid</key>
+	<string>FF192452-A49D-4C47-8055-22E6F83D4DC7</string>
+</dict>
+</plist>

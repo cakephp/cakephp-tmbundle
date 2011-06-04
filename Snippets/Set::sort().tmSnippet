@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$${1:data}; ?&gt;</string>
+	<string>Set::sort(${1:\$data}, ${2:\$path}, ${4:\$dir}})</string>
 	<key>name</key>
-	<string>echo</string>
+	<string>Set::sort()</string>
 	<key>scope</key>
-	<string>text.html.php.cake</string>
+	<string>text.html.php.cake, source.php</string>
 	<key>tabTrigger</key>
-	<string>echo</string>
+	<string>Set</string>
 	<key>uuid</key>
-	<string>F5418E73-4DDB-4863-ACCC-A32504EE05FD</string>
+	<string>DDB6ACEE-D3B1-43B8-B1F1-D9A393048D8E</string>
 </dict>
 </plist>
