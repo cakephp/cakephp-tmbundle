@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;${1:ModelName}-&gt;delete(${2:\$id}${3:, ${4:\$cascade}});</string>
+	<key>name</key>
+	<string>$this-&gt;ModelName-&gt;delete()</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>del</string>
+	<key>uuid</key>
+	<string>A23A8F12-10BE-4EFD-A161-1BE92DD745A3</string>
+</dict>
+</plist>

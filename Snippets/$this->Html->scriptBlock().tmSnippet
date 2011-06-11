@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>`
+if [[ $TM_SCOPE != *source.php* ]]
+then
+        printf '&lt;?php '
+fi
+
+`echo \$this-&gt;Html-&gt;scriptBlock(${1:\$script}{2:, array($3)});`
+ 
+if [[ $TM_SCOPE != *source.php* ]]
+then
+        printf ' ?&gt;'
+fi
+`</string>
+	<key>name</key>
+	<string>$this-&gt;Html-&gt;scriptBlock()</string>
+	<key>scope</key>
+	<string>text.html.php.cake</string>
+	<key>tabTrigger</key>
+	<string>scriptb</string>
+	<key>uuid</key>
+	<string>24375674-2BE6-4DAA-A1B0-4A564F66AC4A</string>
+</dict>
+</plist>
