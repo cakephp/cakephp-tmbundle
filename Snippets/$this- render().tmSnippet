@@ -3,14 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>var \$layout = ${1:'$2'};</string>
+	<string>\$this-&gt;render(${1:'${2:action}'}$3);
+$0</string>
 	<key>name</key>
-	<string>var $layout;</string>
+	<string>Controller::render()</string>
 	<key>scope</key>
-	<string>text.html.php.cake, source.php</string>
+	<string>source.php.cake</string>
 	<key>tabTrigger</key>
-	<string>lay</string>
+	<string>ren</string>
 	<key>uuid</key>
-	<string>332FDCD5-07C5-4AE9-99F3-8E35E6BDB1FD</string>
+	<string>51133511-DD51-4DAD-9F25-E746F46A5544</string>
 </dict>
 </plist>

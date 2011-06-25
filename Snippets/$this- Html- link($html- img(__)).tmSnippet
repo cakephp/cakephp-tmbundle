@@ -9,20 +9,24 @@ then
         printf '&lt;?php '
 fi
 
-`echo \$this-&gt;Html-&gt;script(${1:array($2)}$3);`
+`echo \$this-&gt;Html-&gt;link(
+	\$this-&gt;Html-&gt;image('${1:image.ext}', array('alt' =&gt; '${2:altText}'$3)),
+	${4:array('controller' =&gt; '${5:controller}', 'action' =&gt; '${6:action}'$7)},
+	${8:null}, ${9:null}, ${10:false}
+);`
  
 if [[ $TM_SCOPE != *source.php* ]]
 then
         printf ' ?&gt;'
 fi
-`</string>
+`$0</string>
 	<key>name</key>
-	<string>$this-&gt;Html-&gt;script()</string>
+	<string>$this-&gt;Html-&gt;link($this-&gt;Html-&gt;img(..))</string>
 	<key>scope</key>
 	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
-	<string>script</string>
+	<string>imgl</string>
 	<key>uuid</key>
-	<string>25492799-DF06-4CDA-AB8C-4010E54C0484</string>
+	<string>F7248388-2B17-4F65-B087-D71052847999</string>
 </dict>
 </plist>

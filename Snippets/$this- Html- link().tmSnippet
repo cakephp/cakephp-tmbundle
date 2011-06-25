@@ -9,20 +9,20 @@ then
         printf '&lt;?php '
 fi
 
-`__('${1}'${2:, true});`
+`echo \$this-&gt;Html-&gt;link('${1:text}', ${2:array('controller' =&gt; '${3:controller}', 'action' =&gt; '${4:action}'$5)});`
  
 if [[ $TM_SCOPE != *source.php* ]]
 then
         printf ' ?&gt;'
 fi
-`</string>
+`$0</string>
 	<key>name</key>
-	<string>__()</string>
+	<string>$this-&gt;Html-&gt;link()</string>
 	<key>scope</key>
-	<string>text.html.php.cake, source.php</string>
+	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
-	<string>__</string>
+	<string>link</string>
 	<key>uuid</key>
-	<string>A5BF43CF-5164-4955-9BB7-D25C1C6C013D</string>
+	<string>B67591FC-EA93-409B-805F-43F7399FF2E9</string>
 </dict>
 </plist>

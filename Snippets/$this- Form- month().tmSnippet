@@ -9,20 +9,20 @@ then
         printf '&lt;?php '
 fi
 
-`__('${1}'${2:, true});`
+`echo \$this-&gt;Form-&gt;month('${1:Model}.${2:field}'$3);`
  
 if [[ $TM_SCOPE != *source.php* ]]
 then
         printf ' ?&gt;'
 fi
-`</string>
+`$0</string>
 	<key>name</key>
-	<string>__()</string>
+	<string>$this-&gt;Form-&gt;month()</string>
 	<key>scope</key>
-	<string>text.html.php.cake, source.php</string>
+	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
-	<string>__</string>
+	<string>month</string>
 	<key>uuid</key>
-	<string>A5BF43CF-5164-4955-9BB7-D25C1C6C013D</string>
+	<string>006870B3-30F0-4D5C-9F05-E36EFC868883</string>
 </dict>
 </plist>

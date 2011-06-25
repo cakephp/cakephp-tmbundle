@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>var \$layout = ${1:'$2'};</string>
+	<string>\$this-&gt;Session-&gt;read('${1:Controller}.${2:key}');$0</string>
 	<key>name</key>
-	<string>var $layout;</string>
+	<string>$this-&gt;Session-&gt;read()</string>
 	<key>scope</key>
-	<string>text.html.php.cake, source.php</string>
+	<string>source.php.cake</string>
 	<key>tabTrigger</key>
-	<string>lay</string>
+	<string>sread</string>
 	<key>uuid</key>
-	<string>332FDCD5-07C5-4AE9-99F3-8E35E6BDB1FD</string>
+	<string>48B89126-C7C9-4EAF-8118-D978A7141DDC</string>
 </dict>
 </plist>
