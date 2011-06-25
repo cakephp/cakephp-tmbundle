@@ -9,7 +9,7 @@ then
         printf '&lt;?php '
 fi
 
-`__('${1}'${2:, true});`
+`\$this-&gt;Html-&gt;scriptStart(${1:array($2)});`
  
 if [[ $TM_SCOPE != *source.php* ]]
 then
@@ -17,12 +17,12 @@ then
 fi
 `</string>
 	<key>name</key>
-	<string>__()</string>
+	<string>$this-&gt;Html-&gt;scriptStart()</string>
 	<key>scope</key>
-	<string>text.html.php.cake, source.php</string>
+	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
-	<string>__</string>
+	<string>scripts</string>
 	<key>uuid</key>
-	<string>A5BF43CF-5164-4955-9BB7-D25C1C6C013D</string>
+	<string>E0BCD63E-D538-4334-9F58-C46244F0A3AD</string>
 </dict>
 </plist>

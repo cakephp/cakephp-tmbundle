@@ -9,20 +9,20 @@ then
         printf '&lt;?php '
 fi
 
-`__('${1}'${2:, true});`
+`echo \$this-&gt;Form-&gt;end($1);`
  
 if [[ $TM_SCOPE != *source.php* ]]
 then
         printf ' ?&gt;'
 fi
-`</string>
+`$0</string>
 	<key>name</key>
-	<string>__()</string>
+	<string>$this-&gt;Form-&gt;end()</string>
 	<key>scope</key>
-	<string>text.html.php.cake, source.php</string>
+	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
-	<string>__</string>
+	<string>form</string>
 	<key>uuid</key>
-	<string>A5BF43CF-5164-4955-9BB7-D25C1C6C013D</string>
+	<string>5CBB6007-D1B1-4E48-8373-C2079CE761A8</string>
 </dict>
 </plist>

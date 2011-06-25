@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>content</key>
-	<string>&lt;?php
+    <dict>
+        <key>content</key>
+        <string>&lt;?php
 /**
  * $1sController
  * 
@@ -16,88 +16,148 @@
  **/
 
 class ${1:PluralModelName}sController extends AppController {
-/**
- * The name of this controller. Controller names are plural, named after the model they manipulate.
- *
- * @var string
- * @access public
- */
+	/**
+	 * The name of this controller. Controller names are plural, named after the model they manipulate.
+	 *
+	 * @var string
+	 * @access public
+	 */
 	var \$name = '$1s';
 
-/**
- * An array containing the names of helpers this controller uses. The array elements should
- * not contain the "Helper" part of the classname.
- *
- * @var mixed A single name as a string or a list of names as an array.
- * @access protected
- */
+	/**
+	 * An array containing the names of helpers this controller uses. The array elements should
+	 * not contain the "Helper" part of the classname.
+	 *
+	 * @var mixed A single name as a string or a list of names as an array.
+	 * @access protected
+	 */
 	${3:var \$helpers = array(${4:'Html', 'Form'});}
-
-/**
- * Array containing the names of components this controller uses. Component names
- * should not contain the "Component" portion of the classname.
- *
- * @var array
- * @access public
- */
+	
+	/**
+	 * Array containing the names of components this controller uses. Component names
+	 * should not contain the "Component" portion of the classname.
+	 *
+	 * @var array
+	 * @access public
+	 */
 	var \$components = array();
 
-
-/**
- * Index action.
- *
- * @access public
- */
-	function index() {
-
-	}
-
-/**
- * View action
- *
- * @access public
- * @param integer \$id ID of record
- */	
-	function ${6}view(\$id = null) {
-		if (!\$id) {
-			\$this-&gt;Session-&gt;setFlash(__('Invalid $1.', true));
-			\$this-&gt;redirect(array('action'=&gt;'index'));
-		}
-		\$this-&gt;set('data', \$this-&gt;$1-&gt;read(null, \$id));
-	}
-
-/**
- * Called before the controller action.
- *
- * @access public
- */
+	/**
+	 * Called before the controller action.
+	 *
+	 * @access public
+	 */
 	function beforeFilter() {
 	}
 
-/**
- * Called after the controller action is run, but before the view is rendered.
- *
- * @access public
- */
+	/**
+	 * Called after the controller action is run, but before the view is rendered.
+	 *
+	 * @access public
+	 */
 	function beforeRender() {
 	}
 
-/**
- * Called after the controller action is run and rendered.
- *
- * @access public
- */
+	/**
+	 * Called after the controller action is run and rendered.
+	 *
+	 * @access public
+	 */
 	function afterFilter() {
+	}
+	
+	/**
+	 * Index action
+	 *
+	 * @access public
+	 */
+	function index() {
+		\$this-&gt;$1-&gt;recursive = 0;
+		\$this-&gt;set('${5:$1}s', \$this-&gt;paginate());
+	}
+	
+	/**
+	 * View action
+	 *
+	 * @access public
+	 * @param integer \$id ID of record
+	 */
+	function view($id = null) {
+		if (!$id) {
+			\$this-&gt;Session-&gt;setFlash(__('Invalid $1', true));
+			\$this-&gt;redirect(array('action' =&gt; 'index'));
+		}
+		\$this-&gt;set('$5', \$this-&gt;$1-&gt;read(null, $id));
+	}
+	
+	/**
+	 * Add action
+	 *
+	 * @access public
+	 */
+	function add() {
+		if (!empty($this-&gt;data)) {
+			\$this-&gt;$1-&gt;create();
+			if (\$this-&gt;$1-&gt;save(\$this-&gt;data)) {
+				\$this-&gt;Session-&gt;setFlash(__('The $1 has been saved', true));
+				\$this-&gt;redirect(array('action' =&gt; 'index'));
+			} else {
+				\$this-&gt;Session-&gt;setFlash(__('The $1 could not be saved. Please, try again.', true));
+			}
+		}
+	}
+	
+	/**
+	 * Edit action
+	 *
+	 * @access public
+	 * @param integer \$id ID of record
+	 */
+	function edit(\$id = null) {
+		if (!\$id &amp;&amp; empty(\$this-&gt;data)) {
+			\$this-&gt;Session-&gt;setFlash(__('Invalid $1', true));
+			\$this-&gt;redirect(array('action' =&gt; 'index'));
+		}
+		if (!empty(\$this-&gt;data)) {
+			if (\$this-&gt;$1-&gt;save(\$this-&gt;data)) {
+				\$this-&gt;Session-&gt;setFlash(__('The $1 has been saved', true));
+				\$this-&gt;redirect(array('action' =&gt; 'index'));
+			} else {
+				\$this-&gt;Session-&gt;setFlash(__('The $1 could not be saved. Please, try again.', true));
+			}
+		}
+		if (empty($this-&gt;data)) {
+			$this-&gt;data = $this-&gt;$1-&gt;read(null, $id);
+		}
+	}
+
+	/**
+	 * Delete action
+	 *
+	 * @access public
+	 * @param integer \$id ID of record
+	 */
+	function delete(\$id = null) {
+		if (!\$id) {
+			\$this-&gt;Session-&gt;setFlash(__('Invalid id for $1', true));
+			\$this-&gt;redirect(array('action'=&gt;'index'));
+		}
+		if (\$this-&gt;$1-&gt;delete(\$id)) {
+			\$this-&gt;Session-&gt;setFlash(__('$1 deleted', true));
+			\$this-&gt;redirect(array('action'=&gt;'index'));
+		}
+		\$this-&gt;Session-&gt;setFlash(__('$1 was not deleted', true));
+		\$this-&gt;redirect(array('action' =&gt; 'index'));
 	}
 }
 ?&gt;</string>
-	<key>name</key>
-	<string>New Controller</string>
-	<key>scope</key>
-	<string>source.php.cake</string>
-	<key>tabTrigger</key>
-	<string>control</string>
-	<key>uuid</key>
-	<string>03D809B4-7F9C-4F30-A402-60DDF7F8EBE6</string>
-</dict>
+        <key>name</key>
+        <string>New Controller</string>
+        <key>scope</key>
+        <string>source.php.cake</string>
+        <key>tabTrigger</key>
+        <string>control</string>
+        <key>uuid</key>
+        <string>03D809B4-7F9C-4F30-A402-60DDF7F8EBE6</string>
+    </dict>
 </plist>

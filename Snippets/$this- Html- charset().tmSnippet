@@ -9,20 +9,20 @@ then
         printf '&lt;?php '
 fi
 
-`__('${1}'${2:, true});`
+`echo \$this-&gt;Html-&gt;charset($1);`
  
 if [[ $TM_SCOPE != *source.php* ]]
 then
         printf ' ?&gt;'
 fi
-`</string>
+`$0</string>
 	<key>name</key>
-	<string>__()</string>
+	<string>$this-&gt;Html-&gt;charset()</string>
 	<key>scope</key>
-	<string>text.html.php.cake, source.php</string>
+	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
-	<string>__</string>
+	<string>char</string>
 	<key>uuid</key>
-	<string>A5BF43CF-5164-4955-9BB7-D25C1C6C013D</string>
+	<string>D2F510B7-60EA-413C-8810-830F0CA33451</string>
 </dict>
 </plist>

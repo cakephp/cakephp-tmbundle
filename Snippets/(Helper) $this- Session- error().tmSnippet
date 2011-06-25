@@ -9,20 +9,20 @@ then
         printf '&lt;?php '
 fi
 
-`__('${1}'${2:, true});`
+`echo \$this-&gt;Session-&gt;error();`
  
 if [[ $TM_SCOPE != *source.php* ]]
 then
         printf ' ?&gt;'
 fi
-`</string>
+`$0</string>
 	<key>name</key>
-	<string>__()</string>
+	<string>$this-&gt;Session-&gt;error()</string>
 	<key>scope</key>
-	<string>text.html.php.cake, source.php</string>
+	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
-	<string>__</string>
+	<string>serr</string>
 	<key>uuid</key>
-	<string>A5BF43CF-5164-4955-9BB7-D25C1C6C013D</string>
+	<string>AF57E311-A4A7-44EB-BAEB-3CBA9FCAE8E7</string>
 </dict>
 </plist>

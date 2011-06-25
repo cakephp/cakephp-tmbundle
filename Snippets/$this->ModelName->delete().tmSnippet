@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>var \$layout = ${1:'$2'};</string>
+	<string>\$this-&gt;${1:ModelName}-&gt;delete(${2:\$id}${3:, ${4:\$cascade}});</string>
 	<key>name</key>
-	<string>var $layout;</string>
+	<string>$this-&gt;ModelName-&gt;delete()</string>
 	<key>scope</key>
-	<string>text.html.php.cake, source.php</string>
+	<string>source.php.cake</string>
 	<key>tabTrigger</key>
-	<string>lay</string>
+	<string>del</string>
 	<key>uuid</key>
-	<string>332FDCD5-07C5-4AE9-99F3-8E35E6BDB1FD</string>
+	<string>A23A8F12-10BE-4EFD-A161-1BE92DD745A3</string>
 </dict>
 </plist>

@@ -3,7 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$data['${1:Model}']['${2:field}']; ?&gt;</string>
+	<string>`
+if [[ $TM_SCOPE != *source.php* ]]
+then
+        printf '&lt;?php '
+fi
+
+`echo \$${1:data}${2:['${3:Model}']${4:['${5:field}']}}$6;`
+ 
+if [[ $TM_SCOPE != *source.php* ]]
+then
+        printf ' ?&gt;'
+fi
+`</string>
 	<key>name</key>
 	<string>echo $data['Model']['field']</string>
 	<key>scope</key>

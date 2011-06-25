@@ -3,19 +3,22 @@
 <plist version="1.0">
     <dict>
         <key>content</key>
-        <string>var \$hasAndBelongsToMany = array(
-	'${1:Model}'${2: =&gt; array(
-		${3:'className' =&gt; '${4:${1:ModelClassName}}',}
-		${5:'foreignKey' =&gt; '${6:foreign_key_field}',}
-	)},
+        <string>var \$validate = array(
+	'${1:field_name}' =&gt; array(
+		'${2:ruleAlias}' =&gt; array(
+			'rule' =&gt; '${3:ruleName}',
+			'message' =&gt; '${4:Please enter a valid ${1/_/ /g}}.',${5:
+			'allowEmpty' =&gt; ${6:true},}
+		),$0
+	),
 );</string>
         <key>name</key>
-        <string>var $hasAndBelongsToMany</string>
+        <string>Validation Array</string>
         <key>scope</key>
         <string>source.php.cake</string>
         <key>tabTrigger</key>
-        <string>habtm</string>
+        <string>val</string>
         <key>uuid</key>
-        <string>B9EB6976-0C0B-4BFB-A749-1F9C8BC53621</string>
+        <string>3A68854C-1DE7-414B-8A53-BB55F74261C3</string>
     </dict>
 </plist>
