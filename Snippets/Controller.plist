@@ -87,7 +87,7 @@ class ${1:PluralModelName}sController extends AppController {
 			\$this-&gt;Session-&gt;setFlash(__('Invalid $1', true));
 			\$this-&gt;redirect(array('action' =&gt; 'index'));
 		}
-		\$this-&gt;set('$5', \$this-&gt;$1-&gt;read(null, \$id));
+		\$this-&gt;set('$6', \$this-&gt;$1-&gt;read(null, \$id));
 	}
 	
 	/**
@@ -127,7 +127,7 @@ class ${1:PluralModelName}sController extends AppController {
 			}
 		}
 		if (empty(\$this-&gt;data)) {
-			\$this-&gt;data = $this-&gt;$1-&gt;read(null, \$id);
+			\$this-&gt;data = \$this-&gt;$1-&gt;read(null, \$id);
 		}
 	}
 
