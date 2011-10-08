@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>content</key>
-        <string>&lt;?php
+<dict>
+	<key>content</key>
+	<string>&lt;?php
 /**
  * $1sController
  * 
- * [Short Description]
+ * ${2:[Short Description]}
  *
- * @package ${2:default}
+ * @package ${3:default}
  * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
  * @version \$Id\$
  * @copyright ${PHPDOC_AUTHOR:$TM_ORGANIZATION_NAME}
@@ -31,7 +31,7 @@ class ${1:PluralModelName}sController extends AppController {
 	 * @var mixed A single name as a string or a list of names as an array.
 	 * @access protected
 	 */
-	${3:var \$helpers = array(${4:'Html', 'Form'});}
+	${4:var \$helpers = array(${5:'Html', 'Form'});}
 	
 	/**
 	 * Array containing the names of components this controller uses. Component names
@@ -73,7 +73,7 @@ class ${1:PluralModelName}sController extends AppController {
 	 */
 	function index() {
 		\$this-&gt;$1-&gt;recursive = 0;
-		\$this-&gt;set('${5:$1}s', \$this-&gt;paginate());
+		\$this-&gt;set('${6:$1}s', \$this-&gt;paginate());
 	}
 	
 	/**
@@ -82,12 +82,12 @@ class ${1:PluralModelName}sController extends AppController {
 	 * @access public
 	 * @param integer \$id ID of record
 	 */
-	function view($id = null) {
-		if (!$id) {
+	function view(\$id = null) {
+		if (!\$id) {
 			\$this-&gt;Session-&gt;setFlash(__('Invalid $1', true));
 			\$this-&gt;redirect(array('action' =&gt; 'index'));
 		}
-		\$this-&gt;set('$5', \$this-&gt;$1-&gt;read(null, $id));
+		\$this-&gt;set('$6', \$this-&gt;$1-&gt;read(null, \$id));
 	}
 	
 	/**
@@ -96,7 +96,7 @@ class ${1:PluralModelName}sController extends AppController {
 	 * @access public
 	 */
 	function add() {
-		if (!empty($this-&gt;data)) {
+		if (!empty(\$this-&gt;data)) {
 			\$this-&gt;$1-&gt;create();
 			if (\$this-&gt;$1-&gt;save(\$this-&gt;data)) {
 				\$this-&gt;Session-&gt;setFlash(__('The $1 has been saved', true));
@@ -126,8 +126,8 @@ class ${1:PluralModelName}sController extends AppController {
 				\$this-&gt;Session-&gt;setFlash(__('The $1 could not be saved. Please, try again.', true));
 			}
 		}
-		if (empty($this-&gt;data)) {
-			$this-&gt;data = $this-&gt;$1-&gt;read(null, $id);
+		if (empty(\$this-&gt;data)) {
+			\$this-&gt;data = \$this-&gt;$1-&gt;read(null, \$id);
 		}
 	}
 
@@ -151,13 +151,13 @@ class ${1:PluralModelName}sController extends AppController {
 	}
 }
 ?&gt;</string>
-        <key>name</key>
-        <string>New Controller</string>
-        <key>scope</key>
-        <string>source.php.cake</string>
-        <key>tabTrigger</key>
-        <string>control</string>
-        <key>uuid</key>
-        <string>03D809B4-7F9C-4F30-A402-60DDF7F8EBE6</string>
-    </dict>
+	<key>name</key>
+	<string>New Controller</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>control</string>
+	<key>uuid</key>
+	<string>03D809B4-7F9C-4F30-A402-60DDF7F8EBE6</string>
+</dict>
 </plist>
