@@ -3,8 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>function ${2:func}(\$${3:value}${4: = '${5}'}${6:, $7}) {
-	${0:// code...}
+	<string>/**
+ * ${4:undocumented function}
+ *
+ * ${5:function description} 
+ *
+ * ${6:@param ${7:string} ${8:\$var} ${9:description}  } 
+ * @return ${10:void}
+ * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}$11
+ **/
+$1function $2($3) {
+	$0
 }</string>
 	<key>name</key>
 	<string>function</string>
