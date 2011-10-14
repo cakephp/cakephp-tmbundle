@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>`
+if [[ $TM_SCOPE != *source.php* ]]
+then
+        printf '&lt;?php '
+fi
+
+`\$this-&gt;Javascript-&gt;link('${1:script}.js'${2:, false});`
+ 
+if [[ $TM_SCOPE != *source.php* ]]
+then
+        printf ' ?&gt;'
+fi
+`$0</string>
+	<key>name</key>
+	<string>$this-&gt;Javascript-&gt;link()</string>
+	<key>scope</key>
+	<string>text.html.php.cake</string>
+	<key>tabTrigger</key>
+	<string>jlink</string>
+	<key>uuid</key>
+	<string>A6392055-B549-427C-8A7B-F2216A276D29</string>
+</dict>
+</plist>
