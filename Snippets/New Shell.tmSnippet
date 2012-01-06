@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php
+/**
+ * $1Shell
+ * 
+ * ${2:[Short Description]}
+ *
+ * @package ${3:default}
+ * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
+ * @version \$Id\$
+ * @copyright ${PHPDOC_AUTHOR:$TM_ORGANIZATION_NAME}
+ **/
+
+class ${1:ShellName}Shell extends Shell {
+
+	/**
+	 * An array containing the names of tasks this shell uses. The array elements should
+	 * not contain the "Shell" part of the classname.
+	 *
+	 * @var mixed A single name as a string or a list of names as an array.
+	 * @access protected
+	 */
+	${4:var \$tasks = array(${5});}
+
+	/**
+	 * An array containing the names of models this shell uses.
+	 *
+	 * @var mixed A single name as a string or a list of names as an array.
+	 * @access protected
+	 */
+	${6:var \$uses = array(${7});}	
+
+	/**
+	 * Main action
+	 *
+	 * @access public
+	 */
+	public function main() {
+		${8}
+	}
+
+}
+?&gt;</string>
+	<key>name</key>
+	<string>New Shell</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>shell</string>
+	<key>uuid</key>
+	<string>FEFA8C56-C8CB-4FBD-B5C0-E273FFCD096E</string>
+</dict>
+</plist>
